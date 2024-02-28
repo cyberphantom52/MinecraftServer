@@ -1,73 +1,50 @@
-[00:05:57] [Server thread/INFO]: Ayaan lost connection: Disconnected
-[00:05:57] [Server thread/INFO]: Ayaan left the game
-[00:06:18] [Server thread/INFO]: zaidkhan lost connection: Disconnected
-[00:06:18] [Server thread/INFO]: zaidkhan left the game
-[00:06:24] [Server thread/INFO]: cyberphantom52 lost connection: Disconnected
-[00:06:24] [Server thread/INFO]: cyberphantom52 left the game
-[00:06:28] [Server thread/INFO]: cyberphantom52[/192.168.195.185:34414] logged in with entity id 79296 at (274.8110983743856, 64.02442408821369, 576.5664075784622)
-[00:06:28] [Server thread/INFO]: cyberphantom52 joined the game
-[00:06:28] [Server thread/INFO]: zaidkhan[/127.0.0.1:61565] logged in with entity id 79388 at (272.8725216778019, 66.0, 477.6116183206199)
-[00:06:28] [Server thread/INFO]: zaidkhan joined the game
-[00:06:31] [Server thread/INFO]: Ayaan[/192.168.195.118:60856] logged in with entity id 79455 at (271.0614644185344, 63.0, 507.30000001192093)
-[00:06:31] [Server thread/INFO]: Ayaan joined the game
-[00:06:39] [Server thread/INFO]: MasterSA has made the advancement [A Seedy Place]
-[00:13:39] [Server thread/INFO]: MasterSA has made the advancement [The Parrots and the Bats]
-[00:18:26] [Server thread/INFO]: MasterSA has made the advancement [Monster Hunter]
-[00:19:53] [Server thread/INFO]: cyberphantom52 was shot by Skeleton
-[00:21:07] [Server thread/INFO]: Ayaan lost connection: Disconnected
-[00:21:07] [Server thread/INFO]: Ayaan left the game
-[00:21:15] [Server thread/INFO]: cyberphantom52 lost connection: Disconnected
-[00:21:15] [Server thread/INFO]: cyberphantom52 left the game
-[00:21:22] [Server thread/INFO]: cyberphantom52[/192.168.195.185:55602] logged in with entity id 83710 at (405.39068564226443, 70.9375, 467.4475108863182)
-[00:21:22] [Server thread/INFO]: cyberphantom52 joined the game
-[00:21:39] [Server thread/INFO]: Ayaan[/192.168.195.118:61561] logged in with entity id 83825 at (313.30000001192093, 29.0, 401.8050726753307)
-[00:21:39] [Server thread/INFO]: Ayaan joined the game
-[00:32:13] [Server thread/INFO]: zaidkhan lost connection: Disconnected
-[00:32:13] [Server thread/INFO]: zaidkhan left the game
-[00:32:18] [Server thread/INFO]: zaidkhan[/127.0.0.1:62593] logged in with entity id 86838 at (424.0266554643623, 71.0, 469.60448144671255)
-[00:32:18] [Server thread/INFO]: zaidkhan joined the game
-[00:35:21] [Server thread/INFO]: MasterSA has made the advancement [Acquire Hardware]
-[00:36:08] [Server thread/INFO]: MasterSA has made the advancement [Suit Up]
-[00:36:55] [Server thread/INFO]: MasterSA has made the advancement [Isn't It Iron Pick]
-[00:40:54] [Server thread/INFO]: [Not Secure] <Ayaan> whatu doin
-[00:40:59] [Server thread/INFO]: [Not Secure] <cyberphantom52> COOKIN FISH
-[00:41:49] [Server thread/INFO]: [Not Secure] <cyberphantom52> how much food you got Ayaan
-[00:42:00] [Server thread/INFO]: [Not Secure] <Ayaan> not enough
-[00:42:19] [Server thread/INFO]: zaidkhan lost connection: Disconnected
-[00:42:19] [Server thread/INFO]: zaidkhan left the game
-[00:42:33] [Server thread/INFO]: [Not Secure] <Ayaan> lets play kal
-[00:42:44] [Server thread/INFO]: [Not Secure] <Ayaan> ?
-[00:42:51] [Server thread/INFO]: [Not Secure] <cyberphantom52> why?
-[00:43:02] [Server thread/INFO]: [Not Secure] <Ayaan> fajar ke liye uth na hai
-[00:43:07] [Server thread/INFO]: [Not Secure] <cyberphantom52> alright
-[00:43:10] [Server thread/INFO]: [Not Secure] <cyberphantom52> goodnight
-[00:43:15] [Server thread/INFO]: [Not Secure] <Ayaan> k bye
-[00:43:21] [Server thread/INFO]: Ayaan lost connection: Disconnected
-[00:43:21] [Server thread/INFO]: Ayaan left the game
-[00:44:19] [Server thread/INFO]: [Not Secure] <cyberphantom52> yes
-[00:44:35] [Server thread/INFO]: [Not Secure] <cyberphantom52> me finding bees to kidnap
-[00:45:27] [Server thread/INFO]: [Not Secure] <cyberphantom52> bucket karo craft
-[00:50:38] [Server thread/INFO]: [Not Secure] <cyberphantom52> i got bee
-[00:54:03] [Server thread/INFO]: [Not Secure] <cyberphantom52> idk
-[00:54:24] [Server thread/INFO]: [Not Secure] <cyberphantom52> sleep
-[00:54:26] [Server thread/INFO]: [Not Secure] <cyberphantom52> fast
-[00:54:33] [Server thread/INFO]: cyberphantom52 lost connection: Disconnected
-[00:54:33] [Server thread/INFO]: cyberphantom52 left the game
-[00:54:39] [Server thread/INFO]: cyberphantom52[/192.168.195.185:53404] logged in with entity id 93894 at (415.57386118051147, 74.0, 580.6875084010006)
-[00:54:39] [Server thread/INFO]: cyberphantom52 joined the game
-[00:54:48] [Server thread/INFO]: [Not Secure] <cyberphantom52> goodnight
-[00:54:57] [Server thread/INFO]: [Not Secure] <cyberphantom52> allah hafiz
-[00:55:54] [Server thread/INFO]: MasterSA lost connection: Disconnected
-[00:55:54] [Server thread/INFO]: MasterSA left the game
-[01:10:29] [Server thread/INFO]: No player was found
-[01:10:34] [Server thread/INFO]: Stopping the server
-[01:10:34] [Server thread/INFO]: Stopping server
-[01:10:34] [Server thread/INFO]: Saving players
-[01:10:34] [Server thread/INFO]: Saving worlds
-[01:10:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[01:10:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[01:10:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[01:10:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[01:10:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01:10:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01:10:34] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:00:03] [Server thread/INFO]: cyberphantom52[/192.168.195.185:58042] logged in with entity id 108945 at (306.1290286624239, 52.004910216155935, 400.51185216166135)
+[00:00:03] [Server thread/INFO]: cyberphantom52 joined the game
+[00:00:15] [Server thread/INFO]: [Not Secure] <cyberphantom52> make me survival
+[00:00:39] [Server thread/INFO]: [Not Secure] <cyberphantom52> jaid
+[00:00:47] [Server thread/INFO]: [Not Secure] <cyberphantom52> survivallllll
+[00:01:09] [Server thread/INFO]: Set cyberphantom52's game mode to Survival Mode
+[00:01:41] [Server thread/INFO]: Set zaidkhan's game mode to Creative Mode
+[00:25:33] [Server thread/INFO]: [Not Secure] <cyberphantom52> sleep or leave
+[00:25:37] [Server thread/INFO]: zaidkhan lost connection: Disconnected
+[00:25:37] [Server thread/INFO]: zaidkhan left the game
+[00:25:44] [Server thread/INFO]: zaidkhan[/127.0.0.1:62694] logged in with entity id 115577 at (590.3702431185142, 222.20000004768372, 414.53867866978726)
+[00:25:44] [Server thread/INFO]: zaidkhan joined the game
+[00:36:09] [Server thread/INFO]: [Not Secure] <cyberphantom52> gtg, gn
+[00:36:12] [Server thread/INFO]: [Not Secure] <cyberphantom52> see ya
+[00:36:14] [Server thread/INFO]: cyberphantom52 lost connection: Disconnected
+[00:36:14] [Server thread/INFO]: cyberphantom52 left the game
+[00:36:21] [Server thread/INFO]: Set zaidkhan's game mode to Survival Mode
+[00:38:06] [Server thread/INFO]: Set zaidkhan's game mode to Creative Mode
+[00:38:58] [Server thread/INFO]: Unknown game mode: survuval
+[00:38:58] [Server thread/INFO]: ...e survuval zaidkhan<--[HERE]
+[00:40:24] [Server thread/INFO]: Set zaidkhan's game mode to Survival Mode
+[00:41:31] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[00:41:31] [Server thread/INFO]: set difficulty hard<--[HERE]
+[00:41:39] [Server thread/INFO]: The difficulty has been set to Hard
+[00:42:38] [Server thread/INFO]: The difficulty has been set to Easy
+[00:42:51] [Server thread/INFO]: Set zaidkhan's game mode to Creative Mode
+[00:43:43] [Server thread/INFO]: Set zaidkhan's game mode to Survival Mode
+[00:44:07] [Server thread/INFO]: Set zaidkhan's game mode to Creative Mode
+[00:44:55] [Server thread/INFO]: Set zaidkhan's game mode to Survival Mode
+[00:45:55] [Server thread/INFO]: Set zaidkhan's game mode to Creative Mode
+[00:47:49] [Server thread/INFO]: Set zaidkhan's game mode to Survival Mode
+[00:48:04] [Server thread/INFO]: Set zaidkhan's game mode to Creative Mode
+[00:48:26] [Server thread/INFO]: Set zaidkhan's game mode to Survival Mode
+[00:49:31] [Server thread/INFO]: Set zaidkhan's game mode to Creative Mode
+[00:52:08] [Server thread/INFO]: Set zaidkhan's game mode to Survival Mode
+[00:53:29] [Server thread/INFO]: Set zaidkhan's game mode to Creative Mode
+[00:54:01] [Server thread/INFO]: Set zaidkhan's game mode to Survival Mode
+[00:54:34] [Server thread/INFO]: zaidkhan lost connection: Disconnected
+[00:54:34] [Server thread/INFO]: zaidkhan left the game
+[00:54:38] [Server thread/INFO]: Stopping the server
+[00:54:38] [Server thread/INFO]: Stopping server
+[00:54:38] [Server thread/INFO]: Saving players
+[00:54:38] [Server thread/INFO]: Saving worlds
+[00:54:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:54:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[00:54:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[00:54:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:54:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:54:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:54:38] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
