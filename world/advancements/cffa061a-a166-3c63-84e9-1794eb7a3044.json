@@ -577,6 +577,7 @@
       "chicken": "2024-02-27 22:10:12 +0530",
       "cooked_mutton": "2024-02-25 23:59:38 +0530",
       "cooked_beef": "2024-02-26 18:54:37 +0530",
+      "porkchop": "2024-02-29 22:10:48 +0530",
       "potato": "2024-02-25 23:30:52 +0530",
       "cooked_cod": "2024-02-25 23:42:26 +0530",
       "mutton": "2024-02-25 21:23:10 +0530",
@@ -1506,7 +1507,12 @@
       "minecraft:pillager": "2024-02-27 19:56:41 +0530",
       "minecraft:blaze": "2024-02-28 19:50:36 +0530",
       "minecraft:skeleton": "2024-02-26 23:38:57 +0530",
+      "minecraft:ghast": "2024-02-29 22:24:47 +0530",
+      "minecraft:hoglin": "2024-02-29 21:56:55 +0530",
+      "minecraft:piglin_brute": "2024-02-29 21:43:37 +0530",
+      "minecraft:spider": "2024-02-29 23:00:13 +0530",
       "minecraft:creeper": "2024-02-27 22:37:24 +0530",
+      "minecraft:zombified_piglin": "2024-02-29 22:15:26 +0530",
       "minecraft:wither_skeleton": "2024-02-28 19:53:33 +0530",
       "minecraft:piglin": "2024-02-27 20:25:29 +0530",
       "minecraft:zombie": "2024-02-26 19:02:40 +0530",
@@ -2999,6 +3005,84 @@
   "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
     "criteria": {
       "has_kelp": "2024-02-28 23:40:50 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_other": "2024-02-29 19:44:55 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magma_block": {
+    "criteria": {
+      "has_magma_cream": "2024-02-29 21:38:48 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2024-02-29 21:40:20 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2024-02-29 22:28:34 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2024-02-29 23:00:14 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
+    "criteria": {
+      "has_netherite_upgrade_smithing_template": "2024-02-29 22:01:02 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/snout_armor_trim_smithing_template": {
+    "criteria": {
+      "has_snout_armor_trim_smithing_template": "2024-02-29 21:38:40 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+    "criteria": {
+      "has_ancient_debris": "2024-02-29 21:48:13 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2024-02-29 22:01:30 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/snout_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-02-29 21:38:40 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap": {
+    "criteria": {
+      "has_ancient_debris": "2024-02-29 21:48:13 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2024-02-29 22:28:34 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2024-02-29 21:48:13 +0530"
     },
     "done": true
   },

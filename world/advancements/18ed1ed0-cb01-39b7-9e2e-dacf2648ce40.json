@@ -111,8 +111,11 @@
     "criteria": {
       "minecraft:pillager": "2024-02-25 19:00:36 +0530",
       "minecraft:skeleton": "2024-02-25 16:19:04 +0530",
+      "minecraft:magma_cube": "2024-02-29 22:12:22 +0530",
       "minecraft:spider": "2024-02-25 16:19:27 +0530",
       "minecraft:creeper": "2024-02-25 16:19:20 +0530",
+      "minecraft:zombified_piglin": "2024-02-29 22:14:46 +0530",
+      "minecraft:witch": "2024-02-29 20:07:40 +0530",
       "minecraft:zombie": "2024-02-25 16:18:50 +0530",
       "minecraft:drowned": "2024-02-26 18:40:13 +0530",
       "minecraft:zombie_villager": "2024-02-29 00:39:03 +0530"
@@ -536,6 +539,7 @@
       "cookie": "2024-02-27 21:37:01 +0530",
       "glow_berries": "2024-02-26 19:09:50 +0530",
       "salmon": "2024-02-26 18:20:27 +0530",
+      "golden_carrot": "2024-02-29 22:05:17 +0530",
       "cooked_chicken": "2024-02-25 21:45:49 +0530",
       "cod": "2024-02-26 18:18:24 +0530",
       "cooked_salmon": "2024-02-26 18:26:07 +0530"
@@ -622,6 +626,7 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
+      "minecraft:sheep": "2024-02-29 19:50:01 +0530",
       "minecraft:cow": "2024-02-27 00:24:23 +0530",
       "minecraft:chicken": "2024-02-25 19:12:35 +0530"
     },
@@ -1751,8 +1756,10 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
+      "minecraft:crimson_forest": "2024-02-29 21:53:05 +0530",
       "minecraft:nether_wastes": "2024-02-27 00:12:33 +0530",
-      "minecraft:soul_sand_valley": "2024-02-27 00:13:24 +0530"
+      "minecraft:soul_sand_valley": "2024-02-27 00:13:24 +0530",
+      "minecraft:basalt_deltas": "2024-02-29 22:14:57 +0530"
     },
     "done": false
   },
@@ -2827,6 +2834,78 @@
   "minecraft:recipes/building_blocks/birch_stairs": {
     "criteria": {
       "has_planks": "2024-02-28 23:49:21 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/calibrated_sculk_sensor": {
+    "criteria": {
+      "has_amethyst_shard": "2024-02-29 19:40:05 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2024-02-29 19:40:05 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/spyglass": {
+    "criteria": {
+      "has_amethyst_shard": "2024-02-29 19:40:05 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/amethyst_block": {
+    "criteria": {
+      "has_amethyst_shard": "2024-02-29 19:40:05 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2024-02-29 19:42:46 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2024-02-29 20:34:56 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2024-02-29 20:34:56 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2024-02-29 21:57:45 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_other": "2024-02-29 22:01:23 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2024-02-29 22:15:04 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2024-02-29 22:15:04 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2024-02-29 23:24:11 +0530"
     },
     "done": true
   },
