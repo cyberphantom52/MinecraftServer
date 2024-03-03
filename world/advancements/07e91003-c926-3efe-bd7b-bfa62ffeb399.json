@@ -84,6 +84,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2024-03-03 16:25:25 +0530",
       "chicken": "2024-02-27 23:34:19 +0530",
       "cooked_mutton": "2024-02-28 00:27:52 +0530",
       "cooked_beef": "2024-02-27 23:50:18 +0530",
@@ -584,8 +585,10 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2024-03-03 16:31:40 +0530",
       "minecraft:skeleton": "2024-02-29 20:37:46 +0530",
       "minecraft:spider": "2024-02-28 00:18:26 +0530",
+      "minecraft:creeper": "2024-03-02 21:07:28 +0530",
       "minecraft:zombie": "2024-02-28 00:19:28 +0530"
     },
     "done": false
@@ -1481,6 +1484,30 @@
   "minecraft:recipes/decorations/smoker": {
     "criteria": {
       "has_furnace": "2024-02-29 20:35:46 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop": {
+    "criteria": {
+      "has_porkchop": "2024-03-02 21:09:48 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2024-03-02 21:09:48 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+    "criteria": {
+      "has_porkchop": "2024-03-02 21:09:48 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2024-03-03 16:34:28 +0530"
     },
     "done": true
   },
