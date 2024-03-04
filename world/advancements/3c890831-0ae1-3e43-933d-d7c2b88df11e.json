@@ -1,0 +1,49 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-03-04 20:23:02 +0530"
+    },
+    "done": true
+  },
+  "betterdungeons:root": {
+    "criteria": {
+      "always": "2024-03-04 20:23:02 +0530"
+    },
+    "done": true
+  },
+  "betterdeserttemples:root": {
+    "criteria": {
+      "always": "2024-03-04 20:23:02 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:savanna_plateau": "2024-03-04 20:26:03 +0530",
+      "minecraft:river": "2024-03-04 20:28:12 +0530",
+      "minecraft:forest": "2024-03-04 20:23:03 +0530",
+      "minecraft:savanna": "2024-03-04 20:26:50 +0530",
+      "minecraft:plains": "2024-03-04 20:26:51 +0530"
+    },
+    "done": false
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_helmet": "2024-03-04 20:28:22 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_helmet": "2024-03-04 20:28:22 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_helmet": "2024-03-04 20:28:22 +0530"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}
