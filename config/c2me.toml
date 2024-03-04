@@ -42,9 +42,6 @@ globalExecutorParallelism = "default"
 	enforceSafeWorldRandomAccess = "default"
 
 [generalOptimizations]
-	# (Default: true) Whether to let async chunk request no longer block server thread
-	# (may cause incompatibility with other mods)
-	optimizeAsyncChunkRequest = "default"
 	# (Default: 100000) The task interval of mid-tick chunk tasks in nanoseconds (-1 to disable)  
 	# Mid-tick chunk tasks is to execute chunk tasks during server tick loop  
 	# to speed up chunk loading and generation  
@@ -57,6 +54,9 @@ globalExecutorParallelism = "default"
 	# Incompatible with Dimensional Threading (dimthread)
 	# 
 	midTickChunkTasksInterval = "default"
+	# (Default: true) Whether to let async chunk request no longer block server thread
+	# (may cause incompatibility with other mods)
+	optimizeAsyncChunkRequest = "default"
 
 	[generalOptimizations.autoSave]
 		# (Default: ENHANCED) Defines how auto save should be handled  
@@ -73,10 +73,8 @@ globalExecutorParallelism = "default"
 		delay = "default"
 
 [ioSystem]
-	# (Default: 8192) Soft limit for io worker nbt cache
-	chunkDataCacheSoftLimit = "default"
-	# (Default: 32678) Hard limit for io worker nbt cache
-	chunkDataCacheLimit = "default"
+	# (Default: true) Whether to use async chunk loading & unloading
+	async = "default"
 	# (Default: -1) Defines which chunk compression should be used 
 	# -1 for Vanilla default  
 	# 1  for GZip (RFC1952) (Vanilla compatible) 
@@ -88,10 +86,6 @@ globalExecutorParallelism = "default"
 	# Invalid values will fall back to vanilla default
 	# 
 	chunkStreamVersion = "default"
-	# (Default: true) Whether to use the optimized implementation of IO system
-	replaceImpl = "default"
-	# (Default: true) Whether to use async chunk loading & unloading
-	async = "default"
 	# (Default: false) EXPERIMENTAL FEATURE
 	# This replaces the way your chunks are saved.
 	# Please keep regular backups of your world if you are using this feature,
@@ -101,23 +95,27 @@ globalExecutorParallelism = "default"
 	# (may cause incompatibility with other mods)
 	# 
 	gcFreeChunkSerializer = "default"
+	# (Default: true) Whether to use the optimized implementation of IO system
+	replaceImpl = "default"
+	# (Default: 8192) Soft limit for io worker nbt cache
+	chunkDataCacheSoftLimit = "default"
+	# (Default: 32678) Hard limit for io worker nbt cache
+	chunkDataCacheLimit = "default"
 
 [noTickViewDistance]
-	# (Default: true) Whether to enable no-tick view distance
-	enabled = "default"
-	# (Default: 3) No-tick view distance max concurrent chunk loads 
-	#  Lower this for a better latency and higher this for a faster loading
-	maxConcurrentChunkLoads = "default"
 	# (Default: true) Whether to use compatibility mode to send chunks 
 	#  This may fix some mod compatibility issues
 	compatibilityMode = "default"
+	# (Default: 3) No-tick view distance max concurrent chunk loads 
+	#  Lower this for a better latency and higher this for a faster loading
+	maxConcurrentChunkLoads = "default"
 	# (Default: false) Whether to ensure correct chunks within normal render distance 
 	#  This will send chunks twice increasing network load
 	ensureChunkCorrectness = "default"
+	# (Default: true) Whether to enable no-tick view distance
+	enabled = "default"
 
 [threadedWorldGen]
-	# (Default: false) Whether to enable this feature
-	enabled = "default"
 	# (Default: true) Whether to allow feature generation (world decorations like trees, ores and etc.) run in parallel
 	# (may cause incompatibility with other mods)
 	allowThreadedFeatures = "default"
@@ -129,6 +127,8 @@ globalExecutorParallelism = "default"
 	# (may cause incompatibility with other mods)
 	# 
 	asyncScheduling = "default"
+	# (Default: false) Whether to enable this feature
+	enabled = "default"
 
 [vanillaWorldGenOptimizations]
 	# (Default: true) Whether to enable aquifer optimizations to accelerate overworld worldgen

@@ -19,14 +19,19 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:birch_forest": "2024-03-04 21:45:48 +0530",
       "minecraft:savanna_plateau": "2024-02-25 18:56:55 +0530",
+      "minecraft:beach": "2024-03-04 21:32:54 +0530",
       "minecraft:mangrove_swamp": "2024-02-26 19:33:24 +0530",
       "minecraft:sparse_jungle": "2024-02-25 21:19:05 +0530",
       "minecraft:river": "2024-02-25 21:19:03 +0530",
       "minecraft:lukewarm_ocean": "2024-02-26 19:42:08 +0530",
+      "minecraft:stony_shore": "2024-03-04 21:32:53 +0530",
       "minecraft:forest": "2024-02-25 18:56:32 +0530",
       "minecraft:jungle": "2024-02-25 21:18:54 +0530",
+      "minecraft:ocean": "2024-03-04 22:16:13 +0530",
       "minecraft:windswept_savanna": "2024-02-26 19:30:43 +0530",
+      "minecraft:old_growth_birch_forest": "2024-03-04 21:42:30 +0530",
       "minecraft:savanna": "2024-02-25 18:59:27 +0530",
       "minecraft:plains": "2024-02-25 21:19:48 +0530"
     },
@@ -210,7 +215,8 @@
       "salmon": "2024-02-28 19:12:47 +0530",
       "melon_slice": "2024-02-27 19:31:50 +0530",
       "cooked_chicken": "2024-02-25 21:27:10 +0530",
-      "cooked_salmon": "2024-02-26 20:45:18 +0530"
+      "cooked_salmon": "2024-02-26 20:45:18 +0530",
+      "carrot": "2024-03-04 21:46:42 +0530"
     },
     "done": false
   },
@@ -3218,6 +3224,12 @@
   "minecraft:recipes/decorations/oak_hanging_sign": {
     "criteria": {
       "has_stripped_logs": "2024-03-02 22:32:37 +0530"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_leggings": "2024-03-04 22:56:54 +0530"
     },
     "done": true
   },
