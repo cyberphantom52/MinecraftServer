@@ -19,6 +19,8 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:cherry_grove": "2024-03-16 14:46:10 +0530",
+      "minecraft:sunflower_plains": "2024-03-16 14:45:01 +0530",
       "minecraft:birch_forest": "2024-03-04 21:45:48 +0530",
       "minecraft:savanna_plateau": "2024-02-25 18:56:55 +0530",
       "minecraft:beach": "2024-03-04 21:32:54 +0530",
@@ -27,11 +29,14 @@
       "minecraft:river": "2024-02-25 21:19:03 +0530",
       "minecraft:lukewarm_ocean": "2024-02-26 19:42:08 +0530",
       "minecraft:stony_shore": "2024-03-04 21:32:53 +0530",
+      "minecraft:dripstone_caves": "2024-03-16 14:46:56 +0530",
       "minecraft:forest": "2024-02-25 18:56:32 +0530",
       "minecraft:jungle": "2024-02-25 21:18:54 +0530",
       "minecraft:ocean": "2024-03-04 22:16:13 +0530",
       "minecraft:windswept_savanna": "2024-02-26 19:30:43 +0530",
+      "minecraft:flower_forest": "2024-03-16 14:44:37 +0530",
       "minecraft:old_growth_birch_forest": "2024-03-04 21:42:30 +0530",
+      "minecraft:meadow": "2024-03-16 14:44:21 +0530",
       "minecraft:savanna": "2024-02-25 18:59:27 +0530",
       "minecraft:plains": "2024-02-25 21:19:48 +0530"
     },
@@ -206,6 +211,7 @@
       "cooked_mutton": "2024-02-25 21:29:44 +0530",
       "cooked_beef": "2024-02-26 20:23:56 +0530",
       "beef": "2024-02-27 19:53:15 +0530",
+      "baked_potato": "2024-03-16 15:22:32 +0530",
       "porkchop": "2024-02-25 19:03:09 +0530",
       "apple": "2024-02-27 20:29:54 +0530",
       "cooked_cod": "2024-03-02 14:00:55 +0530",
@@ -247,13 +253,16 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2024-02-25 19:20:54 +0530",
+      "minecraft:blaze": "2024-03-16 16:49:34 +0530",
       "minecraft:skeleton": "2024-02-25 19:04:29 +0530",
+      "minecraft:ghast": "2024-03-16 17:05:24 +0530",
       "minecraft:hoglin": "2024-02-29 19:34:26 +0530",
       "minecraft:spider": "2024-02-25 19:06:35 +0530",
       "minecraft:piglin_brute": "2024-02-29 21:35:59 +0530",
       "minecraft:creeper": "2024-02-26 19:51:09 +0530",
       "minecraft:zombified_piglin": "2024-02-29 22:06:57 +0530",
       "minecraft:witch": "2024-02-29 20:30:19 +0530",
+      "minecraft:wither_skeleton": "2024-03-16 17:05:14 +0530",
       "minecraft:cave_spider": "2024-02-26 19:52:16 +0530",
       "minecraft:piglin": "2024-02-27 20:34:38 +0530",
       "minecraft:enderman": "2024-02-29 19:45:59 +0530",
@@ -1621,7 +1630,8 @@
   },
   "betterdungeons:all_dungeons": {
     "criteria": {
-      "in_better_zombie_dungeon": "2024-02-26 20:18:00 +0530"
+      "in_better_zombie_dungeon": "2024-02-26 20:18:00 +0530",
+      "in_better_spider_dungeon": "2024-03-16 15:28:30 +0530"
     },
     "done": false
   },
@@ -3230,6 +3240,114 @@
   "minecraft:story/shiny_gear": {
     "criteria": {
       "diamond_leggings": "2024-03-04 22:56:54 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_sunflower": {
+    "criteria": {
+      "has_sunflower": "2024-03-16 14:46:05 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_pink_petals": {
+    "criteria": {
+      "has_pink_petals": "2024-03-16 14:56:48 +0530"
+    },
+    "done": true
+  },
+  "betterdungeons:spider_dungeon": {
+    "criteria": {
+      "in_better_spider_dungeon": "2024-03-16 15:28:30 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_nether_bricks": {
+    "criteria": {
+      "has_nether_bricks": "2024-03-16 17:03:51 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2024-03-16 17:05:48 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_nether_bricks_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2024-03-16 17:03:51 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2024-03-16 16:50:40 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs": {
+    "criteria": {
+      "has_nether_bricks": "2024-03-16 17:03:51 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab": {
+    "criteria": {
+      "has_nether_bricks": "2024-03-16 17:03:51 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2024-03-16 16:42:33 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2024-03-16 17:03:51 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2024-03-16 16:50:40 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2024-03-16 17:03:51 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2024-03-16 17:03:51 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall": {
+    "criteria": {
+      "has_nether_bricks": "2024-03-16 17:03:51 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/skull_banner_pattern": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2024-03-16 17:05:48 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2024-03-16 16:50:40 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_fence": {
+    "criteria": {
+      "has_nether_bricks": "2024-03-16 17:03:51 +0530"
     },
     "done": true
   },

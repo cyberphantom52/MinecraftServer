@@ -110,12 +110,15 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2024-02-25 19:00:36 +0530",
+      "minecraft:blaze": "2024-03-16 16:51:13 +0530",
       "minecraft:skeleton": "2024-02-25 16:19:04 +0530",
+      "minecraft:hoglin": "2024-03-16 16:36:41 +0530",
       "minecraft:magma_cube": "2024-02-29 22:12:22 +0530",
       "minecraft:spider": "2024-02-25 16:19:27 +0530",
       "minecraft:creeper": "2024-02-25 16:19:20 +0530",
       "minecraft:zombified_piglin": "2024-02-29 22:14:46 +0530",
       "minecraft:witch": "2024-02-29 20:07:40 +0530",
+      "minecraft:wither_skeleton": "2024-03-16 16:50:07 +0530",
       "minecraft:zombie": "2024-02-25 16:18:50 +0530",
       "minecraft:drowned": "2024-02-26 18:40:13 +0530",
       "minecraft:zombie_villager": "2024-02-29 00:39:03 +0530"
@@ -3147,6 +3150,72 @@
   "minecraft:story/shiny_gear": {
     "criteria": {
       "diamond_chestplate": "2024-03-04 22:30:08 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_nether_gold_ore": {
+    "criteria": {
+      "has_nether_gold_ore": "2024-03-16 16:22:31 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_nether_gold_ore": {
+    "criteria": {
+      "has_nether_gold_ore": "2024-03-16 16:22:31 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/quartz": {
+    "criteria": {
+      "has_nether_quartz_ore": "2024-03-16 16:23:47 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/quartz_from_blasting": {
+    "criteria": {
+      "has_nether_quartz_ore": "2024-03-16 16:23:47 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/warped_fungus_on_a_stick": {
+    "criteria": {
+      "has_warped_fungus": "2024-03-16 16:42:06 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2024-03-16 16:42:25 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal_from_bone_block": {
+    "criteria": {
+      "has_bone_block": "2024-03-16 16:47:25 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2024-03-16 16:52:43 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2024-03-16 16:52:43 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2024-03-16 16:52:43 +0530"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2024-03-16 16:58:46 +0530"
     },
     "done": true
   },

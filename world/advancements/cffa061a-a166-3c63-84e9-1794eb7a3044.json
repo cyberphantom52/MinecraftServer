@@ -14,6 +14,8 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:eroded_badlands": "2024-02-26 20:11:24 +0530",
+      "minecraft:cherry_grove": "2024-03-16 14:40:45 +0530",
+      "minecraft:sunflower_plains": "2024-03-16 14:40:23 +0530",
       "minecraft:bamboo_jungle": "2024-02-25 23:08:58 +0530",
       "minecraft:wooded_badlands": "2024-02-26 19:47:24 +0530",
       "minecraft:badlands": "2024-02-26 19:42:54 +0530",
@@ -32,6 +34,8 @@
       "minecraft:jungle": "2024-02-25 21:15:34 +0530",
       "minecraft:windswept_savanna": "2024-02-25 23:07:28 +0530",
       "minecraft:warm_ocean": "2024-02-26 20:05:36 +0530",
+      "minecraft:flower_forest": "2024-03-16 14:39:52 +0530",
+      "minecraft:meadow": "2024-03-16 14:39:51 +0530",
       "minecraft:savanna": "2024-02-25 21:04:53 +0530",
       "minecraft:plains": "2024-02-25 21:10:08 +0530"
     },
@@ -577,6 +581,7 @@
       "chicken": "2024-02-27 22:10:12 +0530",
       "cooked_mutton": "2024-02-25 23:59:38 +0530",
       "cooked_beef": "2024-02-26 18:54:37 +0530",
+      "beef": "2024-03-16 15:59:34 +0530",
       "porkchop": "2024-02-29 22:10:48 +0530",
       "potato": "2024-02-25 23:30:52 +0530",
       "cooked_cod": "2024-02-25 23:42:26 +0530",
@@ -1515,7 +1520,9 @@
       "minecraft:zombified_piglin": "2024-02-29 22:15:26 +0530",
       "minecraft:witch": "2024-03-01 23:32:33 +0530",
       "minecraft:wither_skeleton": "2024-02-28 19:53:33 +0530",
+      "minecraft:cave_spider": "2024-03-16 15:30:02 +0530",
       "minecraft:piglin": "2024-02-27 20:25:29 +0530",
+      "minecraft:enderman": "2024-03-16 15:26:02 +0530",
       "minecraft:zombie": "2024-02-26 19:02:40 +0530",
       "minecraft:drowned": "2024-02-28 23:41:42 +0530",
       "minecraft:zombie_villager": "2024-03-02 00:02:29 +0530"
@@ -1980,7 +1987,8 @@
   },
   "betterdungeons:all_dungeons": {
     "criteria": {
-      "in_better_zombie_dungeon": "2024-02-26 20:59:49 +0530"
+      "in_better_zombie_dungeon": "2024-02-26 20:59:49 +0530",
+      "in_better_spider_dungeon": "2024-03-16 15:28:31 +0530"
     },
     "done": false
   },
@@ -3343,6 +3351,156 @@
   "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
     "criteria": {
       "has_oxeye_daisy": "2024-03-02 23:12:19 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_planks": {
+    "criteria": {
+      "has_log": "2024-03-16 14:44:04 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_wood": {
+    "criteria": {
+      "has_log": "2024-03-16 14:44:04 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_pink_petals": {
+    "criteria": {
+      "has_pink_petals": "2024-03-16 14:44:50 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_sunflower": {
+    "criteria": {
+      "has_sunflower": "2024-03-16 14:46:05 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_slab": {
+    "criteria": {
+      "has_planks": "2024-03-16 14:47:49 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/cherry_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-03-16 14:47:49 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cherry_sign": {
+    "criteria": {
+      "has_planks": "2024-03-16 14:47:49 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/cherry_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-03-16 14:47:49 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cherry_fence": {
+    "criteria": {
+      "has_planks": "2024-03-16 14:47:49 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_stairs": {
+    "criteria": {
+      "has_planks": "2024-03-16 14:47:49 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/cherry_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-03-16 14:47:49 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/cherry_button": {
+    "criteria": {
+      "has_planks": "2024-03-16 14:47:49 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/cherry_door": {
+    "criteria": {
+      "has_planks": "2024-03-16 14:47:49 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_oak_wood": {
+    "criteria": {
+      "has_log": "2024-03-16 14:51:32 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2024-03-16 14:51:32 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_glow_ink_sac": "2024-03-16 15:12:24 +0530"
+    },
+    "done": true
+  },
+  "betterdungeons:spider_dungeon": {
+    "criteria": {
+      "in_better_spider_dungeon": "2024-03-16 15:28:31 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_nether_gold_ore": {
+    "criteria": {
+      "has_nether_gold_ore": "2024-03-16 16:48:19 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2024-03-16 17:05:17 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2024-03-16 16:53:04 +0530"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_helmet": "2024-03-16 16:07:26 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_nether_gold_ore": {
+    "criteria": {
+      "has_nether_gold_ore": "2024-03-16 16:48:19 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2024-03-16 16:53:04 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/skull_banner_pattern": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2024-03-16 17:05:17 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2024-03-16 16:53:04 +0530"
     },
     "done": true
   },
