@@ -1,6 +1,6 @@
-[14:19:32] [main/INFO]: Loading Minecraft 1.20.1 with Quilt Loader 0.23.1
-[14:19:32] [main/INFO]: Loading mappings: jar:file:/home/phantom/Projects/MinecraftServer/libraries/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar!/mappings/mappings.tiny
-[14:19:33] [main/INFO]: Loading 126 mods:
+[19:29:59] [main/INFO]: Loading Minecraft 1.20.1 with Quilt Loader 0.23.1
+[19:29:59] [main/INFO]: Loading mappings: jar:file:/home/phantom/Projects/MinecraftServer/libraries/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar!/mappings/mappings.tiny
+[19:30:00] [main/INFO]: Loading 126 mods:
 | Index | Mod                                                                   | ID                                           | Version              | Type    | File Hash (SHA-1)                        | File(s)                                                                                                                          | Sub-File                                                                          |
 |------:|-----------------------------------------------------------------------|----------------------------------------------|----------------------|---------|------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 |     6 | asyncutil                                                             | com_ibm_async_asyncutil                      | 0.1.0                | Fabric  | 096bdb449006bb8be63877bdd95370c191333f3b | <mods>/c2me-fabric-mc1.20.1-0.2.0+alpha.11.5.jar                                                                                 | /META-INF/jars/asyncutil-0.1.0.jar                                                |
@@ -155,275 +155,175 @@
 |------:|-----------------------------------------------------------------------|----------------------------------------------|----------------------|---------|------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 Mod Table Version: 2
 Plugin Types: {quilted_fabric_loader=[Fabric], quilt_loader=[Quilt, Builtin]}
-[14:19:33] [main/INFO]: Successfully patched reflections to be able to handle quilt file systems.
-[14:19:33] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/home/phantom/Projects/MinecraftServer/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Quilt Env=SERVER
-[14:19:33] [main/INFO]: Compatibility level set to JAVA_17
-[14:19:33] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[14:19:34] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
-[14:19:34] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[14:19:34] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[14:19:34] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[14:19:34] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[14:19:34] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[14:19:34] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[14:19:34] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[14:19:34] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[14:19:34] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[14:19:34] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[14:19:34] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
-[14:19:34] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
-[14:19:34] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
-[14:19:34] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[14:19:34] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[14:19:34] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[14:19:34] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[14:19:34] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[14:19:34] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[14:19:34] [main/WARN]: Reference map 'yungsextras.refmap.json' for #yungsextras:yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
-[14:19:34] [main/WARN]: Reference map 'yungsextras.refmap.json' for #yungsextras:yungsextras_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[14:19:34] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 2 override(s) found
-[14:19:34] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[14:19:34] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [krypton, c2me]) disables it and children
-[14:19:34] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
-[14:19:34] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on #quilt_testing:quilt_testing.mixins.json:server.MainMixin from mod quilt_testing::handler$zne000$quilt_testing$onStart exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[14:19:35] [main/WARN]: Configuration conflict: there is more than one oshi.properties file on the classpath: [quilt.zfs://minecraft-1.20.1.i0:0/oshi.properties, jar:file:/home/phantom/Projects/MinecraftServer/libraries/com/github/oshi/oshi-core/6.2.2/oshi-core-6.2.2.jar!/oshi.properties]
-[14:19:35] [main/WARN]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [quilt.zfs://minecraft-1.20.1.i0:0/oshi.architecture.properties, jar:file:/home/phantom/Projects/MinecraftServer/libraries/com/github/oshi/oshi-core/6.2.2/oshi-core-6.2.2.jar!/oshi.architecture.properties]
-[14:19:41] [main/INFO]: [Quilt Command] Networking support is enabled
-[14:19:41] [main/WARN]: Assets URL 'quilt.zfs://minecraft-1.20.1.i0:0/assets/.mcassetsroot' uses unexpected schema
-[14:19:41] [main/WARN]: Assets URL 'quilt.zfs://minecraft-1.20.1.i0:0/data/.mcassetsroot' uses unexpected schema
-[14:19:41] [main/INFO]: [Dynamic Lights] Loaded Dynamic Lights by Tschipcraft successfully!
-[14:19:41] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 3.0.x (Linux x86_64)
-[14:19:41] [main/INFO]: Reflections took 30 ms to scan 1 urls, producing 1 keys and 1 values
-[14:19:41] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
-[14:19:41] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
-[14:19:41] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[14:19:41] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
-[14:19:41] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
-[14:19:41] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 4 values
-[14:19:41] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 4 values
-[14:19:41] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 2 values
-[14:19:41] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[14:19:41] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[14:19:41] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[14:19:41] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[14:19:41] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[14:19:41] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[14:19:41] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[14:19:41] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[14:19:41] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[14:19:41] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
-[14:19:41] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[14:19:41] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
-[14:19:41] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
-[14:19:41] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
-[14:19:41] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[14:19:41] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[14:19:42] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
-[14:19:42] [main/INFO]: Registered 0 custom recipes.
-[14:19:42] [main/INFO]: Modified 0 recipes.
-[14:19:42] [main/INFO]: Removed 0 recipes.
-[14:19:42] [main/INFO]: Loaded 7 recipes
-[14:19:42] [main/INFO]: Loaded 1281 advancements
-[14:19:43] [main/INFO]: Applied 217 biome modifications to 53 of 64 new biomes in 17.58 ms
-[14:19:43] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[14:19:43] [Server thread/INFO]: Loading properties
-[14:19:43] [Server thread/INFO]: Default game type: SURVIVAL
-[14:19:43] [Server thread/INFO]: Generating keypair
-[14:19:43] [Server thread/INFO]: Starting Minecraft server on *:25565
-[14:19:43] [Server thread/INFO]: Using epoll channel type
-[14:19:43] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[14:19:43] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[14:19:43] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[14:19:43] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[14:19:43] [Server thread/INFO]: Preparing level "world"
-[14:19:43] [Server thread/INFO]: Enforcing safe world random access
-[14:19:44] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[14:19:45] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[14:19:45] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[14:19:45] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[14:19:46] [Worker-Main-2/INFO]: Preparing spawn area: 10%
-[14:19:46] [Worker-Main-12/INFO]: Preparing spawn area: 58%
-[14:19:47] [Server thread/INFO]: Time elapsed: 2294 ms
-[14:19:47] [Server thread/INFO]: Done (3.342s)! For help, type "help"
-[14:19:47] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[14:19:53] [Server thread/INFO]: Ayaan[/192.168.195.118:50029] logged in with entity id 155 at (275.57177852006856, 84.0, 644.2612080861568)
-[14:19:53] [Server thread/INFO]: Ayaan joined the game
-[14:20:28] [Server thread/INFO]: Ayaan lost connection: Disconnected
-[14:20:28] [Server thread/INFO]: Ayaan left the game
-[14:20:54] [Server thread/INFO]: Ayaan[/192.168.195.118:50030] logged in with entity id 1021 at (253.7567945266449, 87.0, 646.961007850612)
-[14:20:54] [Server thread/INFO]: Ayaan joined the game
-[14:21:01] [Server thread/INFO]: cyberphantom52[/192.168.195.201:41592] logged in with entity id 1435 at (283.05358456515364, 67.0, 461.80442609271984)
-[14:21:01] [Server thread/INFO]: cyberphantom52 joined the game
-[14:21:27] [Server thread/INFO]: cyberphantom52 lost connection: Disconnected
-[14:21:27] [Server thread/INFO]: cyberphantom52 left the game
-[14:21:28] [Server thread/WARN]: Ayaan moved too quickly! 8.305109755034835,1.1767592750642422,5.628772293197926
-[14:22:02] [Server thread/INFO]: cyberphantom52[/192.168.195.201:34002] logged in with entity id 2195 at (282.72986199184925, 67.0, 447.86920273827633)
-[14:22:02] [Server thread/INFO]: cyberphantom52 joined the game
-[14:28:59] [Server thread/INFO]: cyberphantom52 lost connection: Disconnected
-[14:28:59] [Server thread/INFO]: cyberphantom52 left the game
-[14:33:57] [Server thread/INFO]: cyberphantom52[/192.168.195.201:37798] logged in with entity id 10125 at (292.6231270880693, 64.0, 410.90044235200037)
-[14:33:57] [Server thread/INFO]: cyberphantom52 joined the game
-[14:36:06] [Server thread/INFO]: cyberphantom52 lost connection: Disconnected
-[14:36:06] [Server thread/INFO]: cyberphantom52 left the game
-[14:36:11] [Server thread/INFO]: Ayaan lost connection: Timed out
-[14:36:11] [Server thread/INFO]: Ayaan left the game
-[14:36:17] [Server thread/INFO]: Ayaan[/192.168.195.118:50110] logged in with entity id 12377 at (287.8990600757966, 67.0, 447.6862155408229)
-[14:36:17] [Server thread/INFO]: Ayaan joined the game
-[14:37:41] [Server thread/INFO]: cyberphantom52[/192.168.195.201:44782] logged in with entity id 13526 at (273.3729340584984, 67.5625, 456.49872732475365)
-[14:37:41] [Server thread/INFO]: cyberphantom52 joined the game
-[14:38:38] [Server thread/WARN]: Ayaan moved too quickly! -8.623358758994655,-5.231523797587016,-0.18198838411501583
-[14:45:21] [Server thread/WARN]: Ayaan moved too quickly! 9.769582168468105,-0.40739540236494065,-3.0514105599552295
-[14:50:32] [Server thread/INFO]: zaidkhan[/192.168.195.137:59335] logged in with entity id 22624 at (593.7290020179214, 194.0, 416.30000001192093)
-[14:50:32] [Server thread/INFO]: zaidkhan joined the game
-[14:53:16] [Server thread/INFO]: zaidkhan lost connection: Disconnected
-[14:53:16] [Server thread/INFO]: zaidkhan left the game
-[14:53:22] [Server thread/INFO]: zaidkhan[/192.168.195.137:59363] logged in with entity id 24925 at (586.1257652597676, 194.0, 416.4071513060283)
-[14:53:22] [Server thread/INFO]: zaidkhan joined the game
-[14:53:52] [Server thread/INFO]: zaidkhan lost connection: Timed out
-[14:53:52] [Server thread/INFO]: zaidkhan left the game
-[14:54:55] [Server thread/INFO]: Ayaan was impaled on a stalagmite
-[14:57:13] [Server thread/INFO]: zaidkhan[/192.168.195.137:59887] logged in with entity id 28211 at (586.1257652597676, 194.0, 416.4071513060283)
-[14:57:13] [Server thread/INFO]: zaidkhan joined the game
-[15:03:56] [Server thread/INFO]: cyberphantom52 lost connection: Disconnected
-[15:03:56] [Server thread/INFO]: cyberphantom52 left the game
-[15:03:58] [Server thread/INFO]: Ayaan lost connection: Disconnected
-[15:03:58] [Server thread/INFO]: Ayaan left the game
-[15:04:07] [Server thread/INFO]: cyberphantom52[/192.168.195.201:45466] logged in with entity id 35078 at (-202.50236449083982, -2.0, 450.773034731742)
-[15:04:07] [Server thread/INFO]: cyberphantom52 joined the game
-[15:04:18] [Server thread/INFO]: Ayaan[/192.168.195.118:50261] logged in with entity id 35606 at (-196.08553056739876, -10.0, 453.69999998807907)
-[15:04:18] [Server thread/INFO]: Ayaan joined the game
-[15:05:53] [Server thread/WARN]: zaidkhan moved too quickly! -1.0827317385126207,-15.205457744538862,-0.5185109356766588
-[15:06:24] [Server thread/WARN]: zaidkhan moved too quickly! -7.835140246165224,2.0,6.066306785851168
-[15:13:11] [Server thread/WARN]: zaidkhan moved too quickly! -10.190575771645513,0.0,-0.5093860487039592
-[15:14:08] [Server thread/INFO]: zaidkhan lost connection: Disconnected
-[15:14:08] [Server thread/INFO]: zaidkhan left the game
-[15:15:57] [Server thread/INFO]: zaidkhan[/192.168.195.137:60821] logged in with entity id 52468 at (309.72735787952377, 65.7531999805212, 444.00142658095507)
-[15:15:57] [Server thread/INFO]: zaidkhan joined the game
-[15:16:19] [Server thread/INFO]: zaidkhan lost connection: Disconnected
-[15:16:19] [Server thread/INFO]: zaidkhan left the game
-[15:22:23] [Server thread/INFO]: zaidkhan[/192.168.195.137:61330] logged in with entity id 56981 at (309.72735787952377, 65.28904060556576, 444.00142658095507)
-[15:22:23] [Server thread/INFO]: zaidkhan joined the game
-[15:28:30] [Server thread/INFO]: cyberphantom52 has made the advancement [Cobweb Entanglement]
-[15:28:31] [Server thread/INFO]: Ayaan has made the advancement [Cobweb Entanglement]
-[15:35:24] [Server thread/INFO]: Ayaan lost connection: Disconnected
-[15:35:24] [Server thread/INFO]: Ayaan left the game
-[15:35:25] [Server thread/INFO]: cyberphantom52 lost connection: Disconnected
-[15:35:25] [Server thread/INFO]: cyberphantom52 left the game
-[15:35:29] [Server thread/INFO]: Ayaan[/192.168.195.118:50439] logged in with entity id 72681 at (-408.6524775454295, 32.0, 255.30000001192093)
-[15:35:29] [Server thread/INFO]: Ayaan joined the game
-[15:35:33] [Server thread/INFO]: cyberphantom52[/192.168.195.201:50286] logged in with entity id 73265 at (-409.42219205437243, 34.0, 255.97017716648574)
-[15:35:33] [Server thread/INFO]: cyberphantom52 joined the game
-[15:39:46] [Server thread/WARN]: cyberphantom52 moved wrongly!
-[15:44:39] [Server thread/INFO]: zaidkhan lost connection: Disconnected
-[15:44:39] [Server thread/INFO]: zaidkhan left the game
-[15:45:17] [Server thread/INFO]: zaidkhan[/192.168.195.137:62310] logged in with entity id 81737 at (262.0329090129037, 70.24918707874468, 453.7562535382774)
-[15:45:17] [Server thread/INFO]: zaidkhan joined the game
-[15:50:34] [Server thread/INFO]: Ayaan lost connection: Disconnected
-[15:50:34] [Server thread/INFO]: Ayaan left the game
-[15:50:51] [Server thread/INFO]: Ayaan[/192.168.195.118:50526] logged in with entity id 85766 at (-382.1887236809008, 78.5, 209.03821126977363)
-[15:50:51] [Server thread/INFO]: Ayaan joined the game
-[15:50:56] [Server thread/INFO]: Ayaan lost connection: Disconnected
-[15:50:56] [Server thread/INFO]: Ayaan left the game
-[15:52:55] [Server thread/INFO]: Ayaan[/192.168.195.118:50545] logged in with entity id 87483 at (-382.8581420461564, 78.5625, 208.57009515662259)
-[15:52:55] [Server thread/INFO]: Ayaan joined the game
-[15:55:09] [Server thread/INFO]: [zaidkhan: Skin changed]
-[16:03:32] [Server thread/INFO]: Ayaan hit the ground too hard
-[16:04:03] [Server thread/INFO]: zaidkhan lost connection: Timed out
-[16:04:03] [Server thread/INFO]: zaidkhan left the game
-[16:04:13] [Server thread/INFO]: zaidkhan[/192.168.195.137:63114] logged in with entity id 101435 at (297.1926287876883, 64.0, 413.68377937664826)
-[16:04:13] [Server thread/INFO]: zaidkhan joined the game
-[16:04:49] [Server thread/INFO]: zaidkhan lost connection: Disconnected
-[16:04:49] [Server thread/INFO]: zaidkhan left the game
-[16:04:52] [Server thread/INFO]: zaidkhan[/192.168.195.137:63174] logged in with entity id 102313 at (467.1308391906867, 69.0, 454.3611866631224)
-[16:04:52] [Server thread/INFO]: zaidkhan joined the game
-[16:07:26] [Server thread/INFO]: Ayaan has made the advancement [Cover Me with Diamonds]
-[16:08:01] [Server thread/INFO]: MasterSA[/192.168.195.116:52946] logged in with entity id 104390 at (417.5, 79.5625, 472.5)
-[16:08:01] [Server thread/INFO]: MasterSA joined the game
-[16:08:46] [Server thread/INFO]: MasterSA lost connection: Timed out
-[16:08:46] [Server thread/INFO]: MasterSA left the game
-[16:16:22] [Server thread/WARN]: zaidkhan moved too quickly! -1.5056964556559933,-15.035772906733655,0.32022052384559174
-[16:17:25] [Server thread/INFO]: cyberphantom52 lost connection: Disconnected
-[16:17:25] [Server thread/INFO]: cyberphantom52 left the game
-[16:17:33] [Server thread/INFO]: cyberphantom52[/192.168.195.201:58634] logged in with entity id 108586 at (426.2087838441948, 70.79673560066871, 475.4160550516273)
-[16:17:33] [Server thread/INFO]: cyberphantom52 joined the game
-[16:17:39] [Server thread/INFO]: Haziq[/192.168.195.46:58504] logged in with entity id 108610 at (400.9580260685042, 79.0, 461.7069457034627)
-[16:17:39] [Server thread/INFO]: Haziq joined the game
-[16:19:44] [Server thread/INFO]: Haziq lost connection: Disconnected
-[16:19:44] [Server thread/INFO]: Haziq left the game
-[16:23:06] [Server thread/INFO]: cyberphantom52 lost connection: Disconnected
-[16:23:06] [Server thread/INFO]: cyberphantom52 left the game
-[16:24:56] [Server thread/INFO]: cyberphantom52[/192.168.195.201:47534] logged in with entity id 113086 at (54.37371380250327, 28.0, 80.4281017674676)
-[16:24:56] [Server thread/INFO]: cyberphantom52 joined the game
-[16:24:58] [Server thread/INFO]: cyberphantom52 lost connection: Disconnected
-[16:24:58] [Server thread/INFO]: cyberphantom52 left the game
-[16:31:33] [Server thread/INFO]: cyberphantom52[/192.168.195.201:58930] logged in with entity id 121012 at (54.37371380250327, 28.0, 80.4281017674676)
-[16:31:33] [Server thread/INFO]: cyberphantom52 joined the game
-[16:31:35] [Server thread/INFO]: cyberphantom52 lost connection: Disconnected
-[16:31:35] [Server thread/INFO]: cyberphantom52 left the game
-[16:32:55] [Server thread/INFO]: cyberphantom52[/192.168.195.201:41320] logged in with entity id 121249 at (54.37371380250327, 28.0, 80.4281017674676)
-[16:32:55] [Server thread/INFO]: cyberphantom52 joined the game
-[16:32:57] [Server thread/INFO]: cyberphantom52 lost connection: Disconnected
-[16:32:57] [Server thread/INFO]: cyberphantom52 left the game
-[16:35:34] [Server thread/INFO]: cyberphantom52[/192.168.195.201:57642] logged in with entity id 124188 at (54.37371380250327, 28.0, 80.4281017674676)
-[16:35:34] [Server thread/INFO]: cyberphantom52 joined the game
-[16:37:51] [Server thread/INFO]: Haziq[/192.168.195.46:59734] logged in with entity id 124483 at (409.2493791826784, 70.9375, 471.75522696085727)
-[16:37:51] [Server thread/INFO]: Haziq joined the game
-[16:37:57] [Server thread/INFO]: cyberphantom52 lost connection: Disconnected
-[16:37:57] [Server thread/INFO]: cyberphantom52 left the game
-[16:38:42] [Server thread/INFO]: cyberphantom52[/192.168.195.201:55898] logged in with entity id 125121 at (54.58268334299795, 41.0, 86.50977073210498)
-[16:38:42] [Server thread/INFO]: cyberphantom52 joined the game
-[16:40:51] [Server thread/INFO]: zaidkhan lost connection: Disconnected
-[16:40:51] [Server thread/INFO]: zaidkhan left the game
-[16:41:04] [Server thread/INFO]: zaidkhan[/192.168.195.137:64678] logged in with entity id 127585 at (-8.75603780327388, 53.0, 124.36136012248551)
-[16:41:04] [Server thread/INFO]: zaidkhan joined the game
-[16:42:57] [Server thread/INFO]: Haziq lost connection: Disconnected
-[16:42:57] [Server thread/INFO]: Haziq left the game
-[16:43:00] [Server thread/INFO]: Haziq[/192.168.195.46:59998] logged in with entity id 130080 at (403.90325478796177, 70.9375, 463.76816371673334)
-[16:43:00] [Server thread/INFO]: Haziq joined the game
-[16:43:49] [Server thread/INFO]: Haziq lost connection: Disconnected
-[16:43:49] [Server thread/INFO]: Haziq left the game
-[16:44:25] [Server thread/INFO]: Haziq[/192.168.195.46:60074] logged in with entity id 134633 at (380.47736982572894, 68.0, 461.8512756141245)
-[16:44:25] [Server thread/INFO]: Haziq joined the game
-[16:46:09] [Server thread/WARN]: Haziq moved too quickly! 0.0,-11.433643280623443,-0.003071897213715147
-[16:48:01] [Server thread/WARN]: Haziq moved too quickly! 0.0,10.108530904387038,0.0
-[16:50:26] [Server thread/INFO]: Haziq lost connection: Disconnected
-[16:50:26] [Server thread/INFO]: Haziq left the game
-[16:50:40] [Server thread/INFO]: cyberphantom52 has made the advancement [Into Fire]
-[16:52:43] [Server thread/INFO]: zaidkhan has made the advancement [Into Fire]
-[16:53:04] [Server thread/INFO]: Ayaan has made the advancement [Into Fire]
-[16:58:46] [Server thread/INFO]: zaidkhan has made the advancement [Not Today, Thank You]
-[16:59:49] [Server thread/INFO]: zaidkhan fell from a high place
-[17:00:16] [Server thread/INFO]: zaidkhan lost connection: Disconnected
-[17:00:16] [Server thread/INFO]: zaidkhan left the game
-[17:00:21] [Server thread/INFO]: zaidkhan[/192.168.195.137:65476] logged in with entity id 182812 at (292.9802520744946, 66.0, 442.6060742460151)
-[17:00:21] [Server thread/INFO]: zaidkhan joined the game
-[17:00:24] [Server thread/WARN]: zaidkhan moved too quickly! 9.561752329771764,-1.0,-3.7048472519696247
-[17:02:06] [Server thread/INFO]: zaidkhan was slain by Hoglin
-[17:05:17] [Server thread/INFO]: Ayaan has made the advancement [Spooky Scary Skeleton]
-[17:05:30] [Server thread/INFO]: zaidkhan was doomed to fall by Piglin
-[17:05:48] [Server thread/INFO]: cyberphantom52 has made the advancement [Spooky Scary Skeleton]
-[17:05:57] [Server thread/INFO]: zaidkhan lost connection: Disconnected
-[17:05:57] [Server thread/INFO]: zaidkhan left the game
-[17:10:19] [Server thread/INFO]: cyberphantom52 lost connection: Disconnected
-[17:10:19] [Server thread/INFO]: cyberphantom52 left the game
-[17:10:42] [Server thread/INFO]: Ayaan lost connection: Disconnected
-[17:10:42] [Server thread/INFO]: Ayaan left the game
-[17:10:51] [Server thread/INFO]: Stopping server
-[17:10:51] [Server thread/INFO]: Saving players
-[17:10:51] [Server thread/INFO]: Saving worlds
-[17:10:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[17:10:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[17:10:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[17:10:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:10:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:10:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:10:51] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[17:10:51] [C2ME Storage #3/INFO]: Storage thread Thread[C2ME Storage #3,8,main] stopped
-[17:10:51] [C2ME Storage #2/INFO]: Storage thread Thread[C2ME Storage #2,8,main] stopped
-[17:10:51] [C2ME Storage #1/INFO]: Storage thread Thread[C2ME Storage #1,8,main] stopped
-[17:10:51] [C2ME Storage #6/INFO]: Storage thread Thread[C2ME Storage #6,8,main] stopped
-[17:10:51] [C2ME Storage #5/INFO]: Storage thread Thread[C2ME Storage #5,8,main] stopped
-[17:10:51] [C2ME Storage #4/INFO]: Storage thread Thread[C2ME Storage #4,8,main] stopped
-[17:10:51] [C2ME Storage #9/INFO]: Storage thread Thread[C2ME Storage #9,8,main] stopped
-[17:10:51] [C2ME Storage #8/INFO]: Storage thread Thread[C2ME Storage #8,8,main] stopped
-[17:10:51] [C2ME Storage #7/INFO]: Storage thread Thread[C2ME Storage #7,8,main] stopped
+[19:30:00] [main/INFO]: Successfully patched reflections to be able to handle quilt file systems.
+[19:30:00] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/home/phantom/Projects/MinecraftServer/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Quilt Env=SERVER
+[19:30:00] [main/INFO]: Compatibility level set to JAVA_17
+[19:30:00] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[19:30:00] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[19:30:00] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[19:30:00] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[19:30:00] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[19:30:00] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[19:30:00] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[19:30:00] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[19:30:00] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[19:30:00] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[19:30:00] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[19:30:00] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[19:30:00] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
+[19:30:00] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
+[19:30:00] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
+[19:30:00] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[19:30:00] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[19:30:00] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[19:30:00] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[19:30:00] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[19:30:00] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[19:30:01] [main/WARN]: Reference map 'yungsextras.refmap.json' for #yungsextras:yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:30:01] [main/WARN]: Reference map 'yungsextras.refmap.json' for #yungsextras:yungsextras_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:30:01] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 2 override(s) found
+[19:30:01] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[19:30:01] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [krypton, c2me]) disables it and children
+[19:30:01] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
+[19:30:01] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on #quilt_testing:quilt_testing.mixins.json:server.MainMixin from mod quilt_testing::handler$zne000$quilt_testing$onStart exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[19:30:02] [main/WARN]: Configuration conflict: there is more than one oshi.properties file on the classpath: [quilt.zfs://minecraft-1.20.1.i0:0/oshi.properties, jar:file:/home/phantom/Projects/MinecraftServer/libraries/com/github/oshi/oshi-core/6.2.2/oshi-core-6.2.2.jar!/oshi.properties]
+[19:30:02] [main/WARN]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [quilt.zfs://minecraft-1.20.1.i0:0/oshi.architecture.properties, jar:file:/home/phantom/Projects/MinecraftServer/libraries/com/github/oshi/oshi-core/6.2.2/oshi-core-6.2.2.jar!/oshi.architecture.properties]
+[19:30:08] [main/INFO]: [Quilt Command] Networking support is enabled
+[19:30:08] [main/WARN]: Assets URL 'quilt.zfs://minecraft-1.20.1.i0:0/assets/.mcassetsroot' uses unexpected schema
+[19:30:08] [main/WARN]: Assets URL 'quilt.zfs://minecraft-1.20.1.i0:0/data/.mcassetsroot' uses unexpected schema
+[19:30:08] [main/INFO]: [Dynamic Lights] Loaded Dynamic Lights by Tschipcraft successfully!
+[19:30:08] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 3.0.x (Linux x86_64)
+[19:30:08] [main/INFO]: Reflections took 40 ms to scan 1 urls, producing 1 keys and 1 values
+[19:30:08] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 1 values
+[19:30:08] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
+[19:30:08] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 1 values
+[19:30:08] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
+[19:30:08] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
+[19:30:08] [main/INFO]: Reflections took 5 ms to scan 1 urls, producing 1 keys and 4 values
+[19:30:08] [main/INFO]: Reflections took 5 ms to scan 1 urls, producing 1 keys and 4 values
+[19:30:08] [main/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 2 values
+[19:30:08] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[19:30:08] [main/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 2 values
+[19:30:08] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 2 values
+[19:30:09] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
+[19:30:09] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
+[19:30:09] [main/INFO]: Reflections took 5 ms to scan 1 urls, producing 1 keys and 2 values
+[19:30:09] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 2 values
+[19:30:09] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 2 values
+[19:30:09] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[19:30:09] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[19:30:09] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[19:30:09] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
+[19:30:09] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
+[19:30:09] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[19:30:09] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[19:30:09] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:30:10] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[19:30:11] [main/INFO]: Registered 0 custom recipes.
+[19:30:11] [main/INFO]: Modified 0 recipes.
+[19:30:11] [main/INFO]: Removed 0 recipes.
+[19:30:11] [main/INFO]: Loaded 7 recipes
+[19:30:11] [main/INFO]: Loaded 1281 advancements
+[19:30:11] [main/INFO]: Applied 217 biome modifications to 53 of 64 new biomes in 17.79 ms
+[19:30:12] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[19:30:12] [Server thread/INFO]: Loading properties
+[19:30:12] [Server thread/INFO]: Default game type: SURVIVAL
+[19:30:12] [Server thread/INFO]: Generating keypair
+[19:30:12] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:30:12] [Server thread/INFO]: Using epoll channel type
+[19:30:12] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:30:12] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:30:12] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:30:12] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:30:12] [Server thread/INFO]: Preparing level "world"
+[19:30:12] [Server thread/INFO]: Enforcing safe world random access
+[19:30:13] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:30:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:30:13] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[19:30:14] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[19:30:14] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[19:30:15] [Worker-Main-3/INFO]: Preparing spawn area: 6%
+[19:30:15] [Worker-Main-14/INFO]: Preparing spawn area: 27%
+[19:30:16] [Worker-Main-6/INFO]: Preparing spawn area: 79%
+[19:30:16] [Server thread/INFO]: Time elapsed: 3104 ms
+[19:30:16] [Server thread/INFO]: Done (4.136s)! For help, type "help"
+[19:30:16] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[19:30:33] [Server thread/INFO]: cyberphantom52[/192.168.195.201:53132] logged in with entity id 171 at (410.44496345600896, 79.0, 466.0852337588412)
+[19:30:33] [Server thread/INFO]: cyberphantom52 joined the game
+[19:34:46] [Server thread/INFO]: Set the time to 1000
+[19:35:28] [Server thread/INFO]: Ayaan[/192.168.195.118:51713] logged in with entity id 2601 at (404.2825661320438, 70.9375, 463.6150364419835)
+[19:35:28] [Server thread/INFO]: Ayaan joined the game
+[19:39:08] [Server thread/INFO]: cyberphantom52 has made the advancement [Best Friends Forever]
+[19:39:45] [Server thread/WARN]: Horse (vehicle of cyberphantom52) moved wrongly! 0.25658099553737657
+[19:40:35] [Server thread/INFO]: Ayaan lost connection: Disconnected
+[19:40:35] [Server thread/INFO]: Ayaan left the game
+[19:40:41] [Server thread/INFO]: Ayaan[/192.168.195.118:64541] logged in with entity id 8511 at (404.20773023587253, 70.9375, 464.01660421553555)
+[19:40:41] [Server thread/INFO]: Ayaan joined the game
+[19:42:01] [Server thread/INFO]: Ayaan lost connection: Disconnected
+[19:42:01] [Server thread/INFO]: Ayaan left the game
+[19:42:06] [Server thread/INFO]: Ayaan[/192.168.195.118:64550] logged in with entity id 10877 at (470.5210928965357, 69.0, 455.54961204114306)
+[19:42:06] [Server thread/INFO]: Ayaan joined the game
+[19:43:34] [Server thread/INFO]: [Not Secure] <cyberphantom52> did you make brewing stand
+[19:43:56] [Server thread/INFO]: [Not Secure] <cyberphantom52> magma cream, nether wart, water bottle
+[19:44:05] [Server thread/INFO]: [Not Secure] <cyberphantom52> we have some
+[19:47:07] [Server thread/INFO]: Ayaan lost connection: Disconnected
+[19:47:07] [Server thread/INFO]: Ayaan left the game
+[19:47:42] [Server thread/INFO]: Ayaan[/192.168.195.118:64575] logged in with entity id 15398 at (410.776193217137, 75.0, 470.44512434569407)
+[19:47:42] [Server thread/INFO]: Ayaan joined the game
+[19:54:30] [Server thread/WARN]: Ayaan moved too quickly! 10.041120413566773,-1.130906499714527,-0.3767307143323251
+[19:54:55] [Server thread/INFO]: Ayaan has made the advancement [A Throwaway Joke]
+[19:56:27] [Server thread/INFO]: [Not Secure] <cyberphantom52> villager
+[19:56:34] [Server thread/INFO]: [Not Secure] <cyberphantom52> BREEEEED
+[19:56:38] [Server thread/INFO]: [Not Secure] <cyberphantom52> or tat
+[19:56:56] [Server thread/INFO]: [Not Secure] <cyberphantom52> shiiiiiiiiiiiiiiiiiiiiiit
+[19:57:17] [Server thread/INFO]: [Not Secure] <cyberphantom52> wait wait
+[19:58:11] [Server thread/INFO]: cyberphantom52 lost connection: Disconnected
+[19:58:11] [Server thread/INFO]: cyberphantom52 left the game
+[19:58:51] [Server thread/INFO]: cyberphantom52[/192.168.195.201:58900] logged in with entity id 25165 at (285.00316886919575, 67.0, 447.5423181523665)
+[19:58:51] [Server thread/INFO]: cyberphantom52 joined the game
+[19:59:43] [Server thread/INFO]: Ayaan lost connection: Timed out
+[19:59:43] [Server thread/INFO]: Ayaan left the game
+[20:00:02] [Server thread/INFO]: Ayaan[/192.168.195.118:64650] logged in with entity id 25847 at (270.9797443195362, 68.0, 436.0690424102361)
+[20:00:02] [Server thread/INFO]: Ayaan joined the game
+[20:00:56] [Server thread/INFO]: Ayaan lost connection: Timed out
+[20:00:56] [Server thread/INFO]: Ayaan left the game
+[20:01:02] [Server thread/INFO]: Ayaan[/192.168.195.118:64659] logged in with entity id 27328 at (280.0588016757366, 67.0, 445.24207366415175)
+[20:01:02] [Server thread/INFO]: Ayaan joined the game
+[20:03:03] [Server thread/INFO]: Ayaan lost connection: Timed out
+[20:03:03] [Server thread/INFO]: Ayaan left the game
+[20:03:09] [Server thread/INFO]: Ayaan[/192.168.195.118:64668] logged in with entity id 32586 at (58.5, 54.0, 62.43748188154393)
+[20:03:09] [Server thread/INFO]: Ayaan joined the game
+[20:07:45] [Server thread/INFO]: cyberphantom52 burned to death
+[20:07:54] [Server thread/INFO]: [Not Secure] <Ayaan> dafaq
+[20:10:28] [Server thread/INFO]: [Not Secure] <Ayaan> seal the lava
+[20:11:46] [Server thread/INFO]: [Not Secure] <cyberphantom52> gotta go, should i keep server active?
+[20:11:50] [Server thread/INFO]: [Not Secure] <Ayaan> yea
+[20:11:57] [Server thread/INFO]: [Not Secure] <cyberphantom52> alright
+[20:11:58] [Server thread/INFO]: cyberphantom52 lost connection: Disconnected
+[20:11:58] [Server thread/INFO]: cyberphantom52 left the game
+[20:29:56] [Server thread/INFO]: Ayaan lost connection: Timed out
+[20:29:56] [Server thread/INFO]: Ayaan left the game
+[20:30:07] [Server thread/INFO]: Ayaan[/192.168.195.118:64811] logged in with entity id 42897 at (63.04495633679096, 54.0, 65.64623551319981)
+[20:30:07] [Server thread/INFO]: Ayaan joined the game
+[20:44:55] [Server thread/INFO]: Ayaan lost connection: Disconnected
+[20:44:55] [Server thread/INFO]: Ayaan left the game
+[21:12:17] [Server thread/INFO]: Stopping the server
+[21:12:17] [Server thread/INFO]: Stopping server
+[21:12:17] [Server thread/INFO]: Saving players
+[21:12:17] [Server thread/INFO]: Saving worlds
+[21:12:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:12:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[21:12:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[21:12:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:12:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:12:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:12:18] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:12:18] [C2ME Storage #2/INFO]: Storage thread Thread[C2ME Storage #2,8,main] stopped
+[21:12:18] [C2ME Storage #1/INFO]: Storage thread Thread[C2ME Storage #1,8,main] stopped
+[21:12:18] [C2ME Storage #6/INFO]: Storage thread Thread[C2ME Storage #6,8,main] stopped
+[21:12:18] [C2ME Storage #5/INFO]: Storage thread Thread[C2ME Storage #5,8,main] stopped
+[21:12:18] [C2ME Storage #4/INFO]: Storage thread Thread[C2ME Storage #4,8,main] stopped
+[21:12:18] [C2ME Storage #3/INFO]: Storage thread Thread[C2ME Storage #3,8,main] stopped
+[21:12:18] [C2ME Storage #9/INFO]: Storage thread Thread[C2ME Storage #9,8,main] stopped
+[21:12:18] [C2ME Storage #8/INFO]: Storage thread Thread[C2ME Storage #8,8,main] stopped
+[21:12:18] [C2ME Storage #7/INFO]: Storage thread Thread[C2ME Storage #7,8,main] stopped
