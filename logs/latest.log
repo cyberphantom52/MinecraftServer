@@ -1,6 +1,8 @@
-[16:05:36] [main/INFO]: Loading Minecraft 1.20.1 with Quilt Loader 0.23.1
-[16:05:36] [main/INFO]: Loading mappings: jar:file:/home/phantom/Downloads/MinecraftServer/libraries/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar!/mappings/mappings.tiny
-[16:05:37] [main/INFO]: Loading 126 mods:
+[16:35:15] [main/INFO]: Loading Minecraft 1.20.1 with Quilt Loader 0.23.1
+[16:35:15] [main/INFO]: Loading mappings: jar:file:/Users/zaidkhan/Desktop/MinecraftServer/libraries/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar!/mappings/mappings.tiny
+[16:35:15] [main/INFO]: Preparing JARs on first launch, this may take a few seconds...
+[16:35:16] [main/INFO]: Not reusing previous transform cache since it's missing
+[16:35:22] [main/INFO]: Loading 126 mods:
 | Index | Mod                                                                   | ID                                           | Version              | Type    | File Hash (SHA-1)                        | File(s)                                                                                                                          | Sub-File                                                                          |
 |------:|-----------------------------------------------------------------------|----------------------------------------------|----------------------|---------|------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 |     6 | asyncutil                                                             | com_ibm_async_asyncutil                      | 0.1.0                | Fabric  | 096bdb449006bb8be63877bdd95370c191333f3b | <mods>/c2me-fabric-mc1.20.1-0.2.0+alpha.11.5.jar                                                                                 | /META-INF/jars/asyncutil-0.1.0.jar                                                |
@@ -30,37 +32,37 @@
 |    27 | Dynamic Lights                                                        | dynamiclights                                | 1.7.1+mod            | Fabric  | e29ef3c4f7f1907e98a8d8bd9486fde16df118b1 | <mods>/dynamiclights-v1.7.1-mc1.17x-1.20x-mod.jar                                                                                |                                                                                   |
 |    10 | exp4j                                                                 | net_objecthunter_exp4j                       | 0.4.8                | Fabric  | 096bdb449006bb8be63877bdd95370c191333f3b | <mods>/c2me-fabric-mc1.20.1-0.2.0+alpha.11.5.jar                                                                                 | /META-INF/jars/exp4j-0.4.8.jar                                                    |
 |    69 | FerriteCore                                                           | ferritecore                                  | 6.0.1                | Fabric  | 8fa3b84fc5860dbc30fdf8cced02af68dffcf3fa | <mods>/ferritecore-6.0.1-fabric.jar                                                                                              |                                                                                   |
+|    72 | Java HotSpot(TM) 64-Bit Server VM                                     | java                                         | 21                   | Builtin |                                          | /Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home                                                                       |                                                                                   |
 |     4 | javassist                                                             | org_javassist_javassist                      | 3.29.2-GA            | Fabric  | ca1a83ce601e98d053dd357239e600c16290c201 | <mods>/YungsApi-1.20-Fabric-4.0.3.jar                                                                                            | /META-INF/jars/javassist-3.29.2-GA.jar                                            |
 |    30 | Krypton                                                               | krypton                                      | 0.2.3                | Fabric  | f4d812ad1f333ee470739440c041f6e92c2c822  | <mods>/krypton-0.2.3.jar                                                                                                         |                                                                                   |
 |    28 | LazyDFU                                                               | lazydfu                                      | 0.1.3                | Fabric  | 0dfa8b03ed408fb7fdada29e01cfebba02af1049 | <mods>/lazydfu-0.1.3.jar                                                                                                         |                                                                                   |
 |   120 | Lithium                                                               | lithium                                      | 0.11.2               | Fabric  | 8f4642147e60827f728badac7a819d1a9f3b25d5 | <mods>/lithium-fabric-mc1.20.1-0.11.2.jar                                                                                        |                                                                                   |
-|    67 | Minecraft                                                             | minecraft                                    | 1.20.1               | Builtin | 8c373dcb0e704fde2c08362e1fc104d1f6fcd185 | <game>/.cache/quilt_loader/remappedJars/minecraft-1.20.1-0.23.1/server-intermediary.jar                                          | /                                                                                 |
-|       |                                                                       |                                              |                      |         | 8c373dcb0e704fde2c08362e1fc104d1f6fcd185 | <game>/libraries/com/mojang/datafixerupper/6.0.8/datafixerupper-6.0.8.jar                                                        | /                                                                                 |
-|       |                                                                       |                                              |                      |         | 8c373dcb0e704fde2c08362e1fc104d1f6fcd185 | <game>/libraries/com/mojang/authlib/4.0.43/authlib-4.0.43.jar                                                                    | /                                                                                 |
-|       |                                                                       |                                              |                      |         | 8c373dcb0e704fde2c08362e1fc104d1f6fcd185 | <game>/libraries/com/mojang/brigadier/1.1.8/brigadier-1.1.8.jar                                                                  | /                                                                                 |
-|       |                                                                       |                                              |                      |         | 8c373dcb0e704fde2c08362e1fc104d1f6fcd185 | <game>/libraries/com/github/oshi/oshi-core/6.2.2/oshi-core-6.2.2.jar                                                             | /                                                                                 |
-|       |                                                                       |                                              |                      |         | 8c373dcb0e704fde2c08362e1fc104d1f6fcd185 | <game>/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar                                                    | /                                                                                 |
-|       |                                                                       |                                              |                      |         | 8c373dcb0e704fde2c08362e1fc104d1f6fcd185 | <game>/libraries/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar                                                              | /                                                                                 |
-|       |                                                                       |                                              |                      |         | 8c373dcb0e704fde2c08362e1fc104d1f6fcd185 | <game>/libraries/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar                                                              | /                                                                                 |
-|       |                                                                       |                                              |                      |         | 8c373dcb0e704fde2c08362e1fc104d1f6fcd185 | <game>/libraries/io/netty/netty-buffer/4.1.82.Final/netty-buffer-4.1.82.Final.jar                                                | /                                                                                 |
-|       |                                                                       |                                              |                      |         | 8c373dcb0e704fde2c08362e1fc104d1f6fcd185 | <game>/libraries/io/netty/netty-codec/4.1.82.Final/netty-codec-4.1.82.Final.jar                                                  | /                                                                                 |
-|       |                                                                       |                                              |                      |         | 8c373dcb0e704fde2c08362e1fc104d1f6fcd185 | <game>/libraries/io/netty/netty-common/4.1.82.Final/netty-common-4.1.82.Final.jar                                                | /                                                                                 |
-|       |                                                                       |                                              |                      |         | 8c373dcb0e704fde2c08362e1fc104d1f6fcd185 | <game>/libraries/io/netty/netty-handler/4.1.82.Final/netty-handler-4.1.82.Final.jar                                              | /                                                                                 |
-|       |                                                                       |                                              |                      |         | 8c373dcb0e704fde2c08362e1fc104d1f6fcd185 | <game>/libraries/io/netty/netty-resolver/4.1.82.Final/netty-resolver-4.1.82.Final.jar                                            | /                                                                                 |
-|       |                                                                       |                                              |                      |         | 8c373dcb0e704fde2c08362e1fc104d1f6fcd185 | <game>/libraries/io/netty/netty-transport/4.1.82.Final/netty-transport-4.1.82.Final.jar                                          | /                                                                                 |
-|       |                                                                       |                                              |                      |         | 8c373dcb0e704fde2c08362e1fc104d1f6fcd185 | <game>/libraries/io/netty/netty-transport-classes-epoll/4.1.82.Final/netty-transport-classes-epoll-4.1.82.Final.jar              | /                                                                                 |
-|       |                                                                       |                                              |                      |         | 8c373dcb0e704fde2c08362e1fc104d1f6fcd185 | <game>/libraries/io/netty/netty-transport-native-epoll/4.1.82.Final/netty-transport-native-epoll-4.1.82.Final-linux-x86_64.jar   | /                                                                                 |
-|       |                                                                       |                                              |                      |         | 8c373dcb0e704fde2c08362e1fc104d1f6fcd185 | <game>/libraries/io/netty/netty-transport-native-epoll/4.1.82.Final/netty-transport-native-epoll-4.1.82.Final-linux-aarch_64.jar | /                                                                                 |
-|       |                                                                       |                                              |                      |         | 8c373dcb0e704fde2c08362e1fc104d1f6fcd185 | <game>/libraries/io/netty/netty-transport-native-unix-common/4.1.82.Final/netty-transport-native-unix-common-4.1.82.Final.jar    | /                                                                                 |
-|       |                                                                       |                                              |                      |         | 8c373dcb0e704fde2c08362e1fc104d1f6fcd185 | <game>/libraries/it/unimi/dsi/fastutil/8.5.9/fastutil-8.5.9.jar                                                                  | /                                                                                 |
-|       |                                                                       |                                              |                      |         | 8c373dcb0e704fde2c08362e1fc104d1f6fcd185 | <game>/libraries/net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar                                                                      | /                                                                                 |
-|       |                                                                       |                                              |                      |         | 8c373dcb0e704fde2c08362e1fc104d1f6fcd185 | <game>/libraries/net/java/dev/jna/jna-platform/5.12.1/jna-platform-5.12.1.jar                                                    | /                                                                                 |
-|       |                                                                       |                                              |                      |         | 8c373dcb0e704fde2c08362e1fc104d1f6fcd185 | <game>/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar                                                      | /                                                                                 |
-|       |                                                                       |                                              |                      |         | 8c373dcb0e704fde2c08362e1fc104d1f6fcd185 | <game>/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar                                                | /                                                                                 |
+|    67 | Minecraft                                                             | minecraft                                    | 1.20.1               | Builtin | ce96808f54237adbf9ff5d4c2b6e88afdc24e2ad | <game>/.cache/quilt_loader/remappedJars/minecraft-1.20.1-0.23.1/server-intermediary.jar                                          | /                                                                                 |
+|       |                                                                       |                                              |                      |         | ce96808f54237adbf9ff5d4c2b6e88afdc24e2ad | <game>/libraries/com/mojang/datafixerupper/6.0.8/datafixerupper-6.0.8.jar                                                        | /                                                                                 |
+|       |                                                                       |                                              |                      |         | ce96808f54237adbf9ff5d4c2b6e88afdc24e2ad | <game>/libraries/com/mojang/authlib/4.0.43/authlib-4.0.43.jar                                                                    | /                                                                                 |
+|       |                                                                       |                                              |                      |         | ce96808f54237adbf9ff5d4c2b6e88afdc24e2ad | <game>/libraries/com/mojang/brigadier/1.1.8/brigadier-1.1.8.jar                                                                  | /                                                                                 |
+|       |                                                                       |                                              |                      |         | ce96808f54237adbf9ff5d4c2b6e88afdc24e2ad | <game>/libraries/com/github/oshi/oshi-core/6.2.2/oshi-core-6.2.2.jar                                                             | /                                                                                 |
+|       |                                                                       |                                              |                      |         | ce96808f54237adbf9ff5d4c2b6e88afdc24e2ad | <game>/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar                                                    | /                                                                                 |
+|       |                                                                       |                                              |                      |         | ce96808f54237adbf9ff5d4c2b6e88afdc24e2ad | <game>/libraries/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar                                                              | /                                                                                 |
+|       |                                                                       |                                              |                      |         | ce96808f54237adbf9ff5d4c2b6e88afdc24e2ad | <game>/libraries/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar                                                              | /                                                                                 |
+|       |                                                                       |                                              |                      |         | ce96808f54237adbf9ff5d4c2b6e88afdc24e2ad | <game>/libraries/io/netty/netty-buffer/4.1.82.Final/netty-buffer-4.1.82.Final.jar                                                | /                                                                                 |
+|       |                                                                       |                                              |                      |         | ce96808f54237adbf9ff5d4c2b6e88afdc24e2ad | <game>/libraries/io/netty/netty-codec/4.1.82.Final/netty-codec-4.1.82.Final.jar                                                  | /                                                                                 |
+|       |                                                                       |                                              |                      |         | ce96808f54237adbf9ff5d4c2b6e88afdc24e2ad | <game>/libraries/io/netty/netty-common/4.1.82.Final/netty-common-4.1.82.Final.jar                                                | /                                                                                 |
+|       |                                                                       |                                              |                      |         | ce96808f54237adbf9ff5d4c2b6e88afdc24e2ad | <game>/libraries/io/netty/netty-handler/4.1.82.Final/netty-handler-4.1.82.Final.jar                                              | /                                                                                 |
+|       |                                                                       |                                              |                      |         | ce96808f54237adbf9ff5d4c2b6e88afdc24e2ad | <game>/libraries/io/netty/netty-resolver/4.1.82.Final/netty-resolver-4.1.82.Final.jar                                            | /                                                                                 |
+|       |                                                                       |                                              |                      |         | ce96808f54237adbf9ff5d4c2b6e88afdc24e2ad | <game>/libraries/io/netty/netty-transport/4.1.82.Final/netty-transport-4.1.82.Final.jar                                          | /                                                                                 |
+|       |                                                                       |                                              |                      |         | ce96808f54237adbf9ff5d4c2b6e88afdc24e2ad | <game>/libraries/io/netty/netty-transport-classes-epoll/4.1.82.Final/netty-transport-classes-epoll-4.1.82.Final.jar              | /                                                                                 |
+|       |                                                                       |                                              |                      |         | ce96808f54237adbf9ff5d4c2b6e88afdc24e2ad | <game>/libraries/io/netty/netty-transport-native-epoll/4.1.82.Final/netty-transport-native-epoll-4.1.82.Final-linux-x86_64.jar   | /                                                                                 |
+|       |                                                                       |                                              |                      |         | ce96808f54237adbf9ff5d4c2b6e88afdc24e2ad | <game>/libraries/io/netty/netty-transport-native-epoll/4.1.82.Final/netty-transport-native-epoll-4.1.82.Final-linux-aarch_64.jar | /                                                                                 |
+|       |                                                                       |                                              |                      |         | ce96808f54237adbf9ff5d4c2b6e88afdc24e2ad | <game>/libraries/io/netty/netty-transport-native-unix-common/4.1.82.Final/netty-transport-native-unix-common-4.1.82.Final.jar    | /                                                                                 |
+|       |                                                                       |                                              |                      |         | ce96808f54237adbf9ff5d4c2b6e88afdc24e2ad | <game>/libraries/it/unimi/dsi/fastutil/8.5.9/fastutil-8.5.9.jar                                                                  | /                                                                                 |
+|       |                                                                       |                                              |                      |         | ce96808f54237adbf9ff5d4c2b6e88afdc24e2ad | <game>/libraries/net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar                                                                      | /                                                                                 |
+|       |                                                                       |                                              |                      |         | ce96808f54237adbf9ff5d4c2b6e88afdc24e2ad | <game>/libraries/net/java/dev/jna/jna-platform/5.12.1/jna-platform-5.12.1.jar                                                    | /                                                                                 |
+|       |                                                                       |                                              |                      |         | ce96808f54237adbf9ff5d4c2b6e88afdc24e2ad | <game>/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar                                                      | /                                                                                 |
+|       |                                                                       |                                              |                      |         | ce96808f54237adbf9ff5d4c2b6e88afdc24e2ad | <game>/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar                                                | /                                                                                 |
 |       |                                                                       |                                              |                      |         |                                          | <game>/libraries/org/joml/joml/1.10.5/joml-1.10.5.jar                                                                            | /                                                                                 |
 |   118 | MixinExtras                                                           | mixinextras                                  | 0.3.2                | Fabric  | 4d5638a6b04136f46e87002c362201c8b672777e | <game>/libraries/org/quiltmc/quilt-loader/0.23.1/quilt-loader-0.23.1.jar                                                         | /META-INF/jars/mixinextras-fabric-0.3.2.jar                                       |
 |    61 | Nyf's Spiders                                                         | nyfsspiders                                  | 2.1.1                | Fabric  | 57cdc24074718f0a1caab73d3936255891ffa3ca | <mods>/nyfsspiders-fabric-1.20.1-2.1.1.jar                                                                                       |                                                                                   |
-|    72 | OpenJDK 64-Bit Server VM                                              | java                                         | 17                   | Builtin |                                          | /usr/lib/jvm/java-17-openjdk-17.0.10.0.7-3.fc40.x86_64                                                                           |                                                                                   |
 |    19 | Player Animator                                                       | player-animator                              | 1.0.2-rc1+1.20       | Fabric  | 9182c38bcf614d0ed7091b15f7e099a7f2fb3617 | <mods>/player-animation-lib-fabric-1.0.2-rc1+1.20.jar                                                                            |                                                                                   |
 |    66 | Quilt Advancement API                                                 | quilt_advancement                            | 6.1.2+1.20.1         | Quilt   | 7937f939209a63f54e994179018e10c7a47b6c13 | <mods>/qfapi-7.5.0_qsl-6.1.2_fapi-0.91.0_mc-1.20.1.jar                                                                           | /META-INF/jars/advancement-6.1.2+1.20.1.jar                                       |
 |    91 | Quilt Base API                                                        | quilt_base                                   | 6.1.2+1.20.1         | Quilt   | 7937f939209a63f54e994179018e10c7a47b6c13 | <mods>/qfapi-7.5.0_qsl-6.1.2_fapi-0.91.0_mc-1.20.1.jar                                                                           | /META-INF/jars/qsl_base-6.1.2+1.20.1.jar                                          |
@@ -134,7 +136,7 @@
 |    45 | Quilted Fabric Screen Handler API (v1)                                | quilted_fabric_screen_handler_api_v1         | 7.5.0+0.91.0-1.20.1  | Quilt   | 7937f939209a63f54e994179018e10c7a47b6c13 | <mods>/qfapi-7.5.0_qsl-6.1.2_fapi-0.91.0_mc-1.20.1.jar                                                                           | /META-INF/jars/fabric-screen-handler-api-v1-7.5.0+0.91.0-1.20.1.jar               |
 |    94 | Quilted Fabric Transfer API (v1)                                      | quilted_fabric_transfer_api_v1               | 7.5.0+0.91.0-1.20.1  | Quilt   | 7937f939209a63f54e994179018e10c7a47b6c13 | <mods>/qfapi-7.5.0_qsl-6.1.2_fapi-0.91.0_mc-1.20.1.jar                                                                           | /META-INF/jars/fabric-transfer-api-v1-7.5.0+0.91.0-1.20.1.jar                     |
 |    56 | Quilted Fabric Transitive Access Wideners (v1)                        | quilted_fabric_transitive_access_wideners_v1 | 7.5.0+0.91.0-1.20.1  | Quilt   | 7937f939209a63f54e994179018e10c7a47b6c13 | <mods>/qfapi-7.5.0_qsl-6.1.2_fapi-0.91.0_mc-1.20.1.jar                                                                           | /META-INF/jars/fabric-transitive-access-wideners-v1-7.5.0+0.91.0-1.20.1.jar       |
-|    31 | reflections                                                           | org_reflections_reflections                  | 0.10.2               | Fabric  | d3656f6ca8eb702efdab9da53aec60f7921fbcca | <mods>/YungsExtras-1.20-Fabric-4.0.3.jar                                                                                         | /META-INF/jars/reflections-0.10.2.jar                                             |
+|    31 | reflections                                                           | org_reflections_reflections                  | 0.10.2               | Fabric  | 15a14681d914ff4212b84fbb1a10f672c54d8ecc | <mods>/YungsBetterNetherFortresses-1.20-Fabric-2.0.5.jar                                                                         | /META-INF/jars/reflections-0.10.2.jar                                             |
 |     0 | Skin Restorer                                                         | skinrestorer                                 | 1.2.4                | Fabric  | f5037f427e802aba5c9897be09d634aab714c987 | <mods>/skin-restorer-1.2.4.jar                                                                                                   |                                                                                   |
 |   111 | Starlight                                                             | starlight                                    | 1.1.2+fabric.dbc156f | Fabric  | a03102cab439cbab5a1d7d72cd7c2b4976ddd421 | <mods>/starlight-1.1.2+fabric.dbc156f.jar                                                                                        |                                                                                   |
 |    25 | threadly                                                              | org_threadly_threadly                        | 7.0                  | Fabric  | 096bdb449006bb8be63877bdd95370c191333f3b | <mods>/c2me-fabric-mc1.20.1-0.2.0+alpha.11.5.jar                                                                                 | /META-INF/jars/threadly-7.0.jar                                                   |
@@ -146,131 +148,164 @@
 |   122 | YUNG's Better Dungeons                                                | betterdungeons                               | 1.20-Fabric-4.0.3    | Fabric  | a1e7a1f9eb9bda15abb711b5dd6e1087e7dd79d0 | <mods>/YungsBetterDungeons-1.20-Fabric-4.0.3.jar                                                                                 |                                                                                   |
 |    41 | YUNG's Better Jungle Temples                                          | betterjungletemples                          | 1.20-Fabric-2.0.4    | Fabric  | 369a7977950c2a6fcf27f21e8bb192f59663c167 | <mods>/YungsBetterJungleTemples-1.20-Fabric-2.0.4.jar                                                                            |                                                                                   |
 |    89 | YUNG's Better Mineshafts                                              | bettermineshafts                             | 1.20-Fabric-4.0.4    | Fabric  | dda3af404d6958f6fed882b8b4ae7827ac78944b | <mods>/YungsBetterMineshafts-1.20-Fabric-4.0.4.jar                                                                               |                                                                                   |
-|    76 | YUNG's Better Nether Fortresses                                       | betterfortresses                             | 1.20-Fabric-2.0.5    | Fabric  | 4b147deb040b24c3a9e9ddbc90f427e07958a36b | <mods>/YungsBetterNetherFortresses-1.20-Fabric-2.0.5.jar                                                                         |                                                                                   |
+|    76 | YUNG's Better Nether Fortresses                                       | betterfortresses                             | 1.20-Fabric-2.0.5    | Fabric  | 15a14681d914ff4212b84fbb1a10f672c54d8ecc | <mods>/YungsBetterNetherFortresses-1.20-Fabric-2.0.5.jar                                                                         |                                                                                   |
 |    37 | YUNG's Better Ocean Monuments                                         | betteroceanmonuments                         | 1.20-Fabric-3.0.4    | Fabric  | e4e512ae388a57d4eb383657e52707c01283d7be | <mods>/YungsBetterOceanMonuments-1.20-Fabric-3.0.4.jar                                                                           |                                                                                   |
 |    43 | YUNG's Better Strongholds                                             | betterstrongholds                            | 1.20-Fabric-4.0.3    | Fabric  | f7a5eb03935abe845c6691ae99ae42889fdd5da1 | <mods>/YungsBetterStrongholds-1.20-Fabric-4.0.3.jar                                                                              |                                                                                   |
 |    40 | YUNG's Better Witch Huts                                              | betterwitchhuts                              | 1.20-Fabric-3.0.3    | Fabric  | 2803abcf20bf150aa735faa409a23406da69415c | <mods>/YungsBetterWitchHuts-1.20-Fabric-3.0.3.jar                                                                                |                                                                                   |
 |   119 | YUNG's Bridges                                                        | yungsbridges                                 | 1.20-Fabric-4.0.3    | Fabric  | e6be5c5fb116b5ff75910015b19fcc6dadaf4e6  | <mods>/YungsBridges-1.20-Fabric-4.0.3.jar                                                                                        |                                                                                   |
-|   100 | YUNG's Extras                                                         | yungsextras                                  | 1.20-Fabric-4.0.3    | Fabric  | d3656f6ca8eb702efdab9da53aec60f7921fbcca | <mods>/YungsExtras-1.20-Fabric-4.0.3.jar                                                                                         |                                                                                   |
+|   100 | YUNG's Extras                                                         | yungsextras                                  | 1.20-Fabric-4.0.3    | Fabric  | 356c7fa28e0929317c151d75ead603035521eaa3 | <mods>/YungsExtras-1.20-Fabric-4.0.3.jar                                                                                         |                                                                                   |
 |------:|-----------------------------------------------------------------------|----------------------------------------------|----------------------|---------|------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 Mod Table Version: 2
 Plugin Types: {quilted_fabric_loader=[Fabric], quilt_loader=[Quilt, Builtin]}
-[16:05:38] [main/INFO]: Successfully patched reflections to be able to handle quilt file systems.
-[16:05:38] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/home/phantom/Downloads/MinecraftServer/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Quilt Env=SERVER
-[16:05:38] [main/INFO]: Compatibility level set to JAVA_17
-[16:05:38] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[16:05:38] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
-[16:05:38] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[16:05:38] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[16:05:38] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[16:05:38] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[16:05:38] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[16:05:38] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[16:05:38] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[16:05:38] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[16:05:38] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[16:05:38] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[16:05:38] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
-[16:05:38] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
-[16:05:38] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
-[16:05:38] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[16:05:38] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[16:05:38] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[16:05:38] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[16:05:38] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[16:05:38] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[16:05:38] [main/WARN]: Reference map 'yungsextras.refmap.json' for #yungsextras:yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
-[16:05:38] [main/WARN]: Reference map 'yungsextras.refmap.json' for #yungsextras:yungsextras_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[16:05:38] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 2 override(s) found
-[16:05:38] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[16:05:38] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [krypton, c2me]) disables it and children
-[16:05:38] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
-[16:05:38] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on #quilt_testing:quilt_testing.mixins.json:server.MainMixin from mod quilt_testing::handler$zne000$quilt_testing$onStart exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[16:05:39] [main/WARN]: Configuration conflict: there is more than one oshi.properties file on the classpath: [quilt.zfs://minecraft-1.20.1.i0:0/oshi.properties, jar:file:/home/phantom/Downloads/MinecraftServer/libraries/com/github/oshi/oshi-core/6.2.2/oshi-core-6.2.2.jar!/oshi.properties]
-[16:05:39] [main/WARN]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [quilt.zfs://minecraft-1.20.1.i0:0/oshi.architecture.properties, jar:file:/home/phantom/Downloads/MinecraftServer/libraries/com/github/oshi/oshi-core/6.2.2/oshi-core-6.2.2.jar!/oshi.architecture.properties]
-[16:05:43] [main/INFO]: [Quilt Command] Networking support is enabled
-[16:05:43] [main/WARN]: Assets URL 'quilt.zfs://minecraft-1.20.1.i0:0/assets/.mcassetsroot' uses unexpected schema
-[16:05:43] [main/WARN]: Assets URL 'quilt.zfs://minecraft-1.20.1.i0:0/data/.mcassetsroot' uses unexpected schema
-[16:05:44] [main/INFO]: [Dynamic Lights] Loaded Dynamic Lights by Tschipcraft successfully!
-[16:05:44] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 3.0.x (Linux x86_64)
-[16:05:44] [main/INFO]: Reflections took 23 ms to scan 1 urls, producing 1 keys and 1 values
-[16:05:44] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
-[16:05:44] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
-[16:05:44] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[16:05:44] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
-[16:05:44] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
-[16:05:44] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 4 values
-[16:05:44] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 4 values
-[16:05:44] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[16:05:44] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[16:05:44] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[16:05:44] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 2 values
-[16:05:44] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
-[16:05:44] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
-[16:05:44] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[16:05:44] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[16:05:44] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[16:05:44] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[16:05:44] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
-[16:05:44] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[16:05:44] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
-[16:05:44] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
-[16:05:44] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
-[16:05:44] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[16:05:44] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[16:05:45] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
-[16:05:45] [main/INFO]: Registered 0 custom recipes.
-[16:05:45] [main/INFO]: Modified 0 recipes.
-[16:05:45] [main/INFO]: Removed 0 recipes.
-[16:05:45] [main/INFO]: Loaded 7 recipes
-[16:05:45] [main/INFO]: Loaded 1281 advancements
-[16:05:46] [main/INFO]: Applied 217 biome modifications to 53 of 64 new biomes in 22.97 ms
-[16:05:46] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[16:05:46] [Server thread/INFO]: Loading properties
-[16:05:46] [Server thread/INFO]: Default game type: SURVIVAL
-[16:05:46] [Server thread/INFO]: Generating keypair
-[16:05:46] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:05:46] [Server thread/INFO]: Using epoll channel type
-[16:05:46] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:05:46] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[16:05:46] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[16:05:46] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:05:46] [Server thread/INFO]: Preparing level "world"
-[16:05:46] [Server thread/INFO]: Enforcing safe world random access
-[16:05:47] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:05:47] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[16:05:48] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[16:05:48] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[16:05:49] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[16:05:49] [Worker-Main-6/INFO]: Preparing spawn area: 27%
-[16:05:50] [Server thread/INFO]: Time elapsed: 2470 ms
-[16:05:50] [Server thread/INFO]: Done (3.364s)! For help, type "help"
-[16:05:50] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[16:06:50] [Server thread/INFO]: cyberphantom52[/127.0.0.1:40504] logged in with entity id 171 at (584.2793807437301, 197.0, 419.1801307142916)
-[16:06:50] [Server thread/INFO]: cyberphantom52 joined the game
-[16:15:07] [Server thread/INFO]: cyberphantom52 lost connection: Disconnected
-[16:15:07] [Server thread/INFO]: cyberphantom52 left the game
-[16:16:20] [Server thread/INFO]: cyberphantom52[/127.0.0.1:50518] logged in with entity id 2231 at (583.4396110747357, 197.0, 419.42407400083374)
-[16:16:20] [Server thread/INFO]: cyberphantom52 joined the game
-[16:22:36] [Server thread/INFO]: cyberphantom52 lost connection: Disconnected
-[16:22:36] [Server thread/INFO]: cyberphantom52 left the game
-[16:22:40] [Server thread/INFO]: Stopping the server
-[16:22:40] [Server thread/INFO]: Stopping server
-[16:22:40] [Server thread/INFO]: Saving players
-[16:22:40] [Server thread/INFO]: Saving worlds
-[16:22:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[16:22:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[16:22:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[16:22:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[16:22:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[16:22:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[16:22:41] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[16:22:41] [C2ME Storage #3/INFO]: Storage thread Thread[C2ME Storage #3,8,main] stopped
-[16:22:41] [C2ME Storage #2/INFO]: Storage thread Thread[C2ME Storage #2,8,main] stopped
-[16:22:41] [C2ME Storage #1/INFO]: Storage thread Thread[C2ME Storage #1,8,main] stopped
-[16:22:41] [C2ME Storage #6/INFO]: Storage thread Thread[C2ME Storage #6,8,main] stopped
-[16:22:41] [C2ME Storage #5/INFO]: Storage thread Thread[C2ME Storage #5,8,main] stopped
-[16:22:41] [C2ME Storage #4/INFO]: Storage thread Thread[C2ME Storage #4,8,main] stopped
-[16:22:41] [C2ME Storage #9/INFO]: Storage thread Thread[C2ME Storage #9,8,main] stopped
-[16:22:41] [C2ME Storage #8/INFO]: Storage thread Thread[C2ME Storage #8,8,main] stopped
-[16:22:41] [C2ME Storage #7/INFO]: Storage thread Thread[C2ME Storage #7,8,main] stopped
+[16:35:22] [main/INFO]: Successfully patched reflections to be able to handle quilt file systems.
+[16:35:22] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/Users/zaidkhan/Desktop/MinecraftServer/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Quilt Env=SERVER
+[16:35:22] [main/INFO]: Compatibility level set to JAVA_17
+[16:35:22] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[16:35:22] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[16:35:22] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[16:35:22] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[16:35:22] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[16:35:22] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[16:35:22] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[16:35:22] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[16:35:22] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[16:35:22] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunkio.mixin
+[16:35:22] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[16:35:22] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[16:35:22] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[16:35:22] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
+[16:35:22] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
+[16:35:22] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
+[16:35:22] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[16:35:22] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[16:35:22] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[16:35:22] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[16:35:22] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[16:35:22] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[16:35:22] [main/WARN]: Reference map 'yungsextras.refmap.json' for #yungsextras:yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:35:22] [main/WARN]: Reference map 'yungsextras.refmap.json' for #yungsextras:yungsextras_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:35:22] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 2 override(s) found
+[16:35:22] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[16:35:22] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [krypton, c2me]) disables it and children
+[16:35:22] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
+[16:35:22] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on #quilt_testing:quilt_testing.mixins.json:server.MainMixin from mod quilt_testing::handler$zna000$quilt_testing$onStart exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[16:35:23] [main/WARN]: Configuration conflict: there is more than one oshi.properties file on the classpath: [quilt.zfs://minecraft-1.20.1.i0:0/oshi.properties, jar:file:/Users/zaidkhan/Desktop/MinecraftServer/libraries/com/github/oshi/oshi-core/6.2.2/oshi-core-6.2.2.jar!/oshi.properties]
+[16:35:23] [main/WARN]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [quilt.zfs://minecraft-1.20.1.i0:0/oshi.architecture.properties, jar:file:/Users/zaidkhan/Desktop/MinecraftServer/libraries/com/github/oshi/oshi-core/6.2.2/oshi-core-6.2.2.jar!/oshi.architecture.properties]
+[16:35:30] [main/INFO]: [Quilt Command] Networking support is enabled
+[16:35:30] [main/WARN]: Assets URL 'quilt.zfs://minecraft-1.20.1.i0:0/assets/.mcassetsroot' uses unexpected schema
+[16:35:30] [main/WARN]: Assets URL 'quilt.zfs://minecraft-1.20.1.i0:0/data/.mcassetsroot' uses unexpected schema
+[16:35:30] [main/INFO]: [Dynamic Lights] Loaded Dynamic Lights by Tschipcraft successfully!
+[16:35:30] [main/INFO]: Compression will use libdeflate (macOS ARM64 / Apple Silicon), encryption will use native (macOS ARM64 / Apple Silicon)
+[16:35:30] [main/INFO]: Reflections took 24 ms to scan 1 urls, producing 1 keys and 1 values
+[16:35:30] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
+[16:35:31] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
+[16:35:31] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[16:35:31] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
+[16:35:31] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
+[16:35:31] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 4 values
+[16:35:31] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 4 values
+[16:35:31] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[16:35:31] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[16:35:31] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[16:35:31] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[16:35:31] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[16:35:31] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[16:35:31] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[16:35:31] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[16:35:31] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[16:35:31] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[16:35:31] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
+[16:35:31] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[16:35:31] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
+[16:35:31] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
+[16:35:31] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[16:35:31] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[16:35:31] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[16:35:31] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[16:35:32] [main/INFO]: Registered 0 custom recipes.
+[16:35:32] [main/INFO]: Modified 0 recipes.
+[16:35:32] [main/INFO]: Removed 0 recipes.
+[16:35:32] [main/INFO]: Loaded 7 recipes
+[16:35:32] [main/INFO]: Loaded 1281 advancements
+[16:35:32] [main/INFO]: Applied 217 biome modifications to 53 of 64 new biomes in 16.18 ms
+[16:35:34] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[16:35:34] [Server thread/INFO]: Loading properties
+[16:35:34] [Server thread/INFO]: Default game type: SURVIVAL
+[16:35:34] [Server thread/INFO]: Generating keypair
+[16:35:34] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:35:34] [Server thread/INFO]: Using default channel type
+[16:35:34] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:35:34] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:35:34] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:35:34] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:35:34] [Server thread/INFO]: Preparing level "world"
+[16:35:34] [Server thread/INFO]: Enforcing safe world random access
+[16:35:36] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:35:36] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[16:35:37] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:35:37] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[16:35:38] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[16:35:38] [Worker-Main-4/INFO]: Preparing spawn area: 5%
+[16:35:39] [Worker-Main-5/INFO]: Preparing spawn area: 7%
+[16:35:39] [Worker-Main-1/INFO]: Preparing spawn area: 32%
+[16:35:40] [Worker-Main-5/INFO]: Preparing spawn area: 96%
+[16:35:40] [Server thread/INFO]: Time elapsed: 3525 ms
+[16:35:40] [Server thread/INFO]: Done (6.083s)! For help, type "help"
+[16:35:40] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[16:35:50] [Server thread/INFO]: zaidkhan[/127.0.0.1:50008] logged in with entity id 171 at (278.30000001192093, 64.0, 456.2514907501832)
+[16:35:50] [Server thread/INFO]: zaidkhan joined the game
+[16:38:06] [Server thread/INFO]: cyberphantom52[/192.168.195.201:32988] logged in with entity id 3444 at (403.3319069008134, 70.9375, 463.4450488934961)
+[16:38:06] [Server thread/INFO]: cyberphantom52 joined the game
+[16:38:49] [Server thread/INFO]: cyberphantom52 lost connection: Timed out
+[16:38:49] [Server thread/INFO]: cyberphantom52 left the game
+[16:38:59] [Server thread/INFO]: cyberphantom52[/192.168.195.201:32834] logged in with entity id 4275 at (405.5244147161967, 72.0, 474.3592104335749)
+[16:38:59] [Server thread/INFO]: cyberphantom52 joined the game
+[16:39:53] [Server thread/INFO]: cyberphantom52 lost connection: Timed out
+[16:39:53] [Server thread/INFO]: cyberphantom52 left the game
+[16:40:41] [Server thread/INFO]: cyberphantom52[/192.168.195.201:52976] logged in with entity id 4730 at (415.94999998807907, 80.0, 461.00756195980193)
+[16:40:42] [Server thread/INFO]: cyberphantom52 joined the game
+[16:40:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2143ms or 42 ticks behind
+[16:41:29] [Server thread/INFO]: cyberphantom52 lost connection: Timed out
+[16:41:29] [Server thread/INFO]: cyberphantom52 left the game
+[16:42:00] [Server thread/INFO]: cyberphantom52[/192.168.195.201:43390] logged in with entity id 5042 at (415.94999998807907, 80.0, 461.00756195980193)
+[16:42:00] [Server thread/INFO]: cyberphantom52 joined the game
+[16:43:22] [Server thread/INFO]: cyberphantom52 lost connection: Disconnected
+[16:43:22] [Server thread/INFO]: cyberphantom52 left the game
+[16:43:28] [Server thread/INFO]: cyberphantom52[/192.168.195.201:35382] logged in with entity id 5479 at (419.8168212043685, 69.9375, 477.6236526199911)
+[16:43:28] [Server thread/INFO]: cyberphantom52 joined the game
+[16:44:08] [Server thread/WARN]: cyberphantom52 was kicked for floating too long!
+[16:44:08] [Server thread/INFO]: cyberphantom52 lost connection: Flying is not enabled on this server
+[16:44:08] [Server thread/INFO]: cyberphantom52 left the game
+[16:44:15] [Server thread/INFO]: cyberphantom52[/192.168.195.201:52252] logged in with entity id 5953 at (419.9296861864109, 71.00133597911214, 477.97184867719363)
+[16:44:15] [Server thread/INFO]: cyberphantom52 joined the game
+[16:44:21] [Server thread/INFO]: cyberphantom52 lost connection: Disconnected
+[16:44:21] [Server thread/INFO]: cyberphantom52 left the game
+[16:44:34] [Server thread/INFO]: cyberphantom52[/192.168.195.201:36196] logged in with entity id 6079 at (409.66236685119316, 69.9375, 477.52036951475367)
+[16:44:34] [Server thread/INFO]: cyberphantom52 joined the game
+[16:45:08] [Server thread/INFO]: cyberphantom52 lost connection: Timed out
+[16:45:08] [Server thread/INFO]: cyberphantom52 left the game
+[16:45:24] [Server thread/INFO]: cyberphantom52[/192.168.195.201:33946] logged in with entity id 6293 at (409.66236685119316, 69.9375, 477.52036951475367)
+[16:45:24] [Server thread/INFO]: cyberphantom52 joined the game
+[16:47:13] [Server thread/INFO]: zaidkhan lost connection: Disconnected
+[16:47:13] [Server thread/INFO]: zaidkhan left the game
+[16:47:30] [Server thread/INFO]: zaidkhan[/127.0.0.1:50541] logged in with entity id 8932 at (380.5235575643927, 66.0, 500.6095242429105)
+[16:47:30] [Server thread/INFO]: zaidkhan joined the game
+[17:02:36] [Server thread/INFO]: cyberphantom52 lost connection: Timed out
+[17:02:36] [Server thread/INFO]: cyberphantom52 left the game
+[17:02:41] [Server thread/INFO]: cyberphantom52[/192.168.195.201:36760] logged in with entity id 16997 at (285.0869220194205, 69.0, 449.2015856398615)
+[17:02:41] [Server thread/INFO]: cyberphantom52 joined the game
+[17:05:17] [Server thread/INFO]: zaidkhan lost connection: Disconnected
+[17:05:17] [Server thread/INFO]: zaidkhan left the game
+[17:06:59] [Server thread/INFO]: cyberphantom52 lost connection: Disconnected
+[17:06:59] [Server thread/INFO]: cyberphantom52 left the game
+[17:08:26] [Server thread/INFO]: Stopping the server
+[17:08:26] [Server thread/INFO]: Stopping server
+[17:08:26] [Server thread/INFO]: Saving players
+[17:08:26] [Server thread/INFO]: Saving worlds
+[17:08:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:08:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[17:08:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[17:08:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:08:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:08:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:08:26] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
