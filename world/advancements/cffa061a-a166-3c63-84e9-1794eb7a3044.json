@@ -1339,9 +1339,10 @@
       "minecraft:crimson_forest": "2024-02-26 00:12:28 +0530",
       "minecraft:nether_wastes": "2024-02-26 00:06:26 +0530",
       "minecraft:soul_sand_valley": "2024-02-26 23:36:09 +0530",
-      "minecraft:basalt_deltas": "2024-02-27 20:29:39 +0530"
+      "minecraft:basalt_deltas": "2024-02-27 20:29:39 +0530",
+      "minecraft:warped_forest": "2024-03-20 23:06:43 +0530"
     },
-    "done": false
+    "done": true
   },
   "minecraft:nether/root": {
     "criteria": {
@@ -1514,6 +1515,7 @@
       "minecraft:skeleton": "2024-02-26 23:38:57 +0530",
       "minecraft:ghast": "2024-02-29 22:24:47 +0530",
       "minecraft:hoglin": "2024-02-29 21:56:55 +0530",
+      "minecraft:magma_cube": "2024-03-20 22:45:56 +0530",
       "minecraft:piglin_brute": "2024-02-29 21:43:37 +0530",
       "minecraft:spider": "2024-02-29 23:00:13 +0530",
       "minecraft:creeper": "2024-02-27 22:37:24 +0530",
