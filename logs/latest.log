@@ -1,5 +1,6 @@
-[00:45:14] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.5
-[00:45:14] [main/WARN]: Warnings were found!
+[22:06:50] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.5
+[22:06:50] [ForkJoinPool-1-worker-9/WARN]: Mod tectonic uses the version 2.4.1a which isn't compatible with Loader's extended semantic version format (Could not parse version number component '1a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[22:06:50] [main/WARN]: Warnings were found!
  - Mod 'Dynamic Lights' (dynamiclights) 1.8.3+mod recommends any version of modmenu, which is missing!
 	 - You should install any version of modmenu for the optimal experience.
  - Mod 'Dynamic Lights' (dynamiclights) 1.8.3+mod recommends any version of modmenu-badges-lib, which is missing!
@@ -8,7 +9,11 @@
 	 - You should install any version of midnightlib for the optimal experience.
  - Mod 'Forge Config API Port' (forgeconfigapiport) 21.0.8 recommends any version of modmenu, which is missing!
 	 - You should install any version of modmenu for the optimal experience.
-[00:45:14] [main/INFO]: Loading 78 mods:
+[22:06:50] [main/INFO]: Loading 92 mods:
+	- alternate-current 1.9.0
+	- cloth-config 15.0.140
+	   \-- cloth-basic-math 0.6.1
+	- clumps 18.0.0.2
 	- coroutil 1.21.0-1.3.7
 	- dynamiclights 1.8.3+mod
 	- easyanvils 21.0.5
@@ -84,6 +89,7 @@
 	   \-- fabric-transitive-access-wideners-v1 6.1.0+176f9036d1
 	- fabricloader 0.16.5
 	   \-- mixinextras 0.4.1
+	- faster-random 5.1.0
 	- forgeconfigapiport 21.0.8
 	   |-- com_electronwill_night-config_core 3.8.0
 	   \-- com_electronwill_night-config_toml 3.8.0
@@ -92,145 +98,183 @@
 	   |-- ar_com_hjg_pngj 2.1.0
 	   |-- commonnetworking 1.0.16-1.21
 	   \-- journeymap-api-fabric 2.0.0-1.21-SNAPSHOT
+	- leavesbegone 21.0.0
 	- minecraft 1.21
+	- modernfix 5.19.1+mc1.21
+	- moremobvariants 1.3.1.1
 	- noisium 2.3.0+mc1.21-1.21.1
 	- nyfsspiders 2.3.1
 	- puzzleslib 21.0.28
+	- scalablelux 0.1.0+fabric.26c6e72
+	- sit-oth3r 1.2.0.7+1.21-1.21.1
 	- skinrestorer 2.1.0+1.21-fabric
+	- stevesrealisticsleep 1.11.1+mc1.21-1.21.1
+	- tectonic 2.4.1a
+	- terralith 2.5.5
+	- visualworkbench 21.0.5
 	- watut 1.21.0-1.1.3
 	- weaponmaster_ydm 4.2.3
-[00:45:14] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/phantom/Documents/MCServer/libraries/net/fabricmc/sponge-mixin/0.15.3+mixin.0.8.7/sponge-mixin-0.15.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[00:45:14] [main/INFO]: Compatibility level set to JAVA_17
-[00:45:14] [main/INFO]: Compatibility level set to JAVA_21
-[00:45:14] [main/WARN]: Reference map 'coroutil.refmap.json' for coroutil_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[00:45:14] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[00:45:14] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
-[00:45:14] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[00:45:15] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[00:45:20] [main/INFO]: fabric loader environment detected
-[00:45:20] [main/INFO]: [Dynamic Lights] Loaded Dynamic Lights by Tschipcraft successfully!
-[00:45:20] [main/INFO]: Constructing common components for easyanvils:main
-[00:45:21] [main/INFO]: Dispatching loading event for config easyanvils-common.toml
-[00:45:21] [main/INFO]: [EasyAuth]: EasyAuth mod by NikitaCartes
-[00:45:21] [main/WARN]: [EasyAuth]: Disable enforce-secure-profile to allow offline players to join the server
-[00:45:21] [main/WARN]: [EasyAuth]: For more info, see https://github.com/NikitaCartes/EasyAuth/issues/68
-[00:45:21] [main/INFO]: Constructing common components for easymagic:main
-[00:45:21] [main/INFO]: Dispatching loading event for config easymagic-common.toml
-[00:45:21] [main/INFO]: Initializing ServerSide Packet Registries
-[00:45:21] [main/INFO]: Loading Noisium.
-[00:45:21] [main/INFO]: Hello Fabric world!
-[00:45:21] [main/INFO]: Constructing common components for puzzleslib:main
-[00:45:21] [main/INFO]: [STDOUT]: Initialize WeaponMaster
-[00:45:21] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[00:45:22] [main/INFO]: Loaded 1290 recipes
-[00:45:23] [main/INFO]: Loaded 1400 advancements
-[00:45:23] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 36 translation keys
-[00:45:23] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.768 ms
-[00:45:23] [Server thread/INFO]: Dispatching loading event for config easyanvils-server.toml
-[00:45:23] [Server thread/INFO]: Dispatching loading event for config easymagic-server.toml
-[00:45:23] [Server thread/INFO]: Starting minecraft server version 1.21
-[00:45:23] [Server thread/INFO]: Loading properties
-[00:45:23] [Server thread/INFO]: Default game type: SURVIVAL
-[00:45:23] [Server thread/INFO]: Generating keypair
-[00:45:24] [Server thread/INFO]: Starting Minecraft server on *:25565
-[00:45:24] [Server thread/INFO]: Using epoll channel type
-[00:45:24] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[00:45:24] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[00:45:24] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[00:45:24] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[00:45:24] [Server thread/INFO]: Preparing level "world"
-[00:45:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[00:45:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[00:45:25] [Server thread/INFO]: Time elapsed: 513 ms
-[00:45:25] [Server thread/INFO]: Done (1.328s)! For help, type "help"
-[00:45:25] [Server thread/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
-[00:45:25] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricClientHooks@5e05aa83 for service interface journeymap.api.services.ClientPlatformService
-[00:45:25] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricHooks@4b6d1199 for service interface journeymap.api.services.CommonPlatformService
-[00:45:55] [Server thread/INFO]: cyberphantom52[/127.0.0.1:51872] logged in with entity id 31 at (493.6398950506389, 60.0, 425.63540398947606)
-[00:45:55] [Server thread/INFO]: cyberphantom52 joined the game
-[00:47:03] [Server thread/INFO]: zaidkhan[/192.168.29.14:50697] logged in with entity id 729 at (483.6955953837883, 63.0, 447.98355496450284)
-[00:47:03] [Server thread/INFO]: zaidkhan joined the game
-[00:47:05] [Server thread/INFO]: com.mojang.authlib.GameProfile@30980908[id=fcddf0aa-8560-3154-8bdf-7f270a18eb24,name=ayaan,properties={}] lost connection: Disconnected
-[00:47:39] [Server thread/INFO]: com.mojang.authlib.GameProfile@195b35e5[id=fcddf0aa-8560-3154-8bdf-7f270a18eb24,name=ayaan,properties={}] lost connection: Disconnected
-[00:49:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=477, y=64, z=439} class_2338{x=477, y=63, z=438}
-[00:49:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=477, y=64, z=439} class_2338{x=477, y=63, z=438}
-[00:49:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=477, y=64, z=439} class_2338{x=477, y=63, z=438}
-[00:49:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=477, y=64, z=439} class_2338{x=477, y=63, z=438}
-[00:49:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=477, y=64, z=439} class_2338{x=477, y=63, z=438}
-[00:50:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=478, y=68, z=470} class_2338{x=478, y=67, z=471}
-[00:50:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=478, y=68, z=470} class_2338{x=478, y=67, z=471}
-[00:50:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=478, y=68, z=470} class_2338{x=478, y=67, z=471}
-[00:50:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=478, y=68, z=470} class_2338{x=478, y=67, z=471}
-[00:50:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=478, y=68, z=470} class_2338{x=478, y=67, z=471}
-[00:53:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=486, y=64, z=475} class_2338{x=484, y=64, z=474}
-[00:56:35] [Server thread/INFO]: cyberphantom52 lost connection: Disconnected
-[00:56:35] [Server thread/INFO]: cyberphantom52 left the game
-[00:56:51] [Server thread/INFO]: cyberphantom52[/127.0.0.1:46440] logged in with entity id 7238 at (489.5441872266342, 60.0, 403.0405911664421)
-[00:56:51] [Server thread/INFO]: cyberphantom52 joined the game
-[00:59:32] [Server thread/INFO]: zaidkhan lost connection: Disconnected
-[00:59:32] [Server thread/INFO]: zaidkhan left the game
-[00:59:38] [Server thread/INFO]: zaidkhan[/192.168.29.14:51177] logged in with entity id 8889 at (458.2377105541759, 70.0, 443.69902342773327)
-[00:59:38] [Server thread/INFO]: zaidkhan joined the game
-[01:11:01] [Server thread/INFO]: zaidkhan lost connection: Disconnected
-[01:11:01] [Server thread/INFO]: zaidkhan left the game
-[01:11:05] [Server thread/INFO]: zaidkhan[/192.168.29.14:51616] logged in with entity id 13872 at (434.87254228706496, 70.0, 458.315578955454)
-[01:11:05] [Server thread/INFO]: zaidkhan joined the game
-[01:12:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=473, y=65, z=442} class_2338{x=474, y=65, z=443}
-[01:12:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=473, y=65, z=442} class_2338{x=474, y=65, z=443}
-[01:12:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=473, y=65, z=442} class_2338{x=474, y=65, z=443}
-[01:12:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=473, y=65, z=442} class_2338{x=474, y=65, z=443}
-[01:12:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=473, y=65, z=442} class_2338{x=474, y=65, z=443}
-[01:12:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=473, y=65, z=442} class_2338{x=474, y=65, z=443}
-[01:12:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=473, y=65, z=442} class_2338{x=474, y=65, z=443}
-[01:12:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=473, y=65, z=442} class_2338{x=474, y=65, z=443}
-[01:12:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=473, y=65, z=442} class_2338{x=474, y=65, z=443}
-[01:12:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=473, y=65, z=442} class_2338{x=474, y=65, z=443}
-[01:16:17] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=471, y=63, z=451} class_2338{x=471, y=62, z=450}
-[01:19:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=471, y=63, z=437} class_2338{x=471, y=62, z=434}
-[01:19:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=471, y=63, z=437} class_2338{x=471, y=62, z=434}
-[01:19:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=471, y=63, z=437} class_2338{x=471, y=62, z=434}
-[01:19:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=471, y=63, z=437} class_2338{x=471, y=62, z=434}
-[01:19:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=471, y=63, z=437} class_2338{x=471, y=62, z=434}
-[01:19:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=471, y=63, z=437} class_2338{x=471, y=62, z=434}
-[01:19:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=471, y=63, z=437} class_2338{x=471, y=62, z=434}
-[01:19:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=471, y=63, z=437} class_2338{x=471, y=62, z=434}
-[01:19:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=471, y=63, z=437} class_2338{x=471, y=62, z=434}
-[01:24:55] [Server thread/INFO]: zaidkhan lost connection: Disconnected
-[01:24:55] [Server thread/INFO]: zaidkhan left the game
-[01:25:03] [Server thread/INFO]: zaidkhan[/192.168.29.14:52154] logged in with entity id 22932 at (471.527680471863, 63.0, 434.6709470471011)
-[01:25:03] [Server thread/INFO]: zaidkhan joined the game
-[01:26:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=459, y=68, z=439} class_2338{x=460, y=66, z=436}
-[01:43:10] [Server thread/INFO]: zaidkhan lost connection: Disconnected
-[01:43:10] [Server thread/INFO]: zaidkhan left the game
-[01:43:16] [Server thread/INFO]: zaidkhan[/192.168.29.14:52851] logged in with entity id 33209 at (480.6469287881224, 61.0, 427.1348623242554)
-[01:43:16] [Server thread/INFO]: zaidkhan joined the game
-[01:43:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=486, y=61, z=425} class_2338{x=486, y=61, z=426}
-[01:45:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=460, y=66, z=421} class_2338{x=460, y=65, z=419}
-[01:45:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=460, y=66, z=421} class_2338{x=460, y=65, z=419}
-[01:45:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=460, y=66, z=421} class_2338{x=460, y=65, z=419}
-[01:45:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=460, y=66, z=421} class_2338{x=460, y=65, z=419}
-[01:45:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=460, y=66, z=421} class_2338{x=460, y=65, z=419}
-[01:45:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=460, y=66, z=421} class_2338{x=460, y=65, z=419}
-[01:53:21] [Server thread/INFO]: zaidkhan lost connection: Disconnected
-[01:53:21] [Server thread/INFO]: zaidkhan left the game
-[02:07:38] [Server thread/INFO]: cyberphantom52 lost connection: Disconnected
-[02:07:38] [Server thread/INFO]: cyberphantom52 left the game
-[02:07:41] [Server thread/INFO]: cyberphantom52[/127.0.0.1:43158] logged in with entity id 44733 at (475.42829504210624, 63.0, 425.8023976446088)
-[02:07:41] [Server thread/INFO]: cyberphantom52 joined the game
-[02:07:50] [Server thread/INFO]: cyberphantom52 lost connection: Disconnected
-[02:07:50] [Server thread/INFO]: cyberphantom52 left the game
-[02:08:22] [Server thread/INFO]: Stopping the server
-[02:08:22] [Server thread/INFO]: Stopping server
-[02:08:22] [Server thread/INFO]: Saving players
-[02:08:22] [Server thread/INFO]: Saving worlds
-[02:08:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[02:08:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[02:08:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[02:08:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[02:08:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[02:08:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[02:08:22] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[02:08:22] [Server thread/INFO]: [EasyAuth]: Shutting down EasyAuth.
-[02:08:22] [Server thread/INFO]: [EasyAuth]: Database connection closed successfully
-[02:08:22] [Server thread/INFO]: Dispatching unloading event for config easyanvils-server.toml
-[02:08:22] [Server thread/INFO]: Dispatching unloading event for config easymagic-server.toml
+[22:06:50] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/phantom/Documents/MinecraftServer/libraries/net/fabricmc/sponge-mixin/0.15.3+mixin.0.8.7/sponge-mixin-0.15.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[22:06:50] [main/INFO]: Compatibility level set to JAVA_16
+[22:06:50] [main/INFO]: Compatibility level set to JAVA_18
+[22:06:50] [main/INFO]: Compatibility level set to JAVA_21
+[22:06:50] [main/WARN]: Reference map 'coroutil.refmap.json' for coroutil_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:06:50] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:06:50] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:06:50] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:06:50] [main/WARN]: Reference map 'leavesbegone.fabric.refmap.json' for leavesbegone.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:06:50] [main/INFO]: Loaded configuration file for ModernFix 5.19.1+mc1.21: 54 options available, 0 override(s) found
+[22:06:50] [main/INFO]: Applying Nashorn fix
+[22:06:50] [main/WARN]: Reference map 'visualworkbench.fabric.refmap.json' for visualworkbench.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:06:51] [main/INFO]: Loading Faster Random.
+[22:06:51] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[22:06:54] [main/INFO]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[22:06:54] [main/INFO]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[22:06:54] [main/WARN]: Static binding violation: PRIVATE @Overwrite method method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[22:06:56] [main/INFO]: Vanilla bootstrap took 3346 milliseconds
+[22:06:56] [main/INFO]: fabric loader environment detected
+[22:06:56] [main/INFO]: [Dynamic Lights] Loaded Dynamic Lights by Tschipcraft successfully!
+[22:06:56] [main/INFO]: Constructing common components for easyanvils:main
+[22:06:56] [main/INFO]: Dispatching loading event for config easyanvils-common.toml
+[22:06:56] [main/INFO]: [EasyAuth]: EasyAuth mod by NikitaCartes
+[22:06:56] [main/WARN]: [EasyAuth]: Disable enforce-secure-profile to allow offline players to join the server
+[22:06:56] [main/WARN]: [EasyAuth]: For more info, see https://github.com/NikitaCartes/EasyAuth/issues/68
+[22:06:57] [main/INFO]: Constructing common components for easymagic:main
+[22:06:57] [main/INFO]: Dispatching loading event for config easymagic-common.toml
+[22:06:57] [main/INFO]: Initializing ServerSide Packet Registries
+[22:06:57] [main/INFO]: Constructing common components for leavesbegone:main
+[22:06:57] [main/INFO]: Giving mobs a fresh coat of paint...
+[22:06:57] [main/INFO]: Loading Noisium.
+[22:06:57] [main/INFO]: Hello Fabric world!
+[22:06:57] [main/INFO]: Constructing common components for puzzleslib:main
+[22:06:57] [main/INFO]: Loading Steve's Realistic Sleep.
+[22:06:57] [main/INFO]: Constructing common components for visualworkbench:main
+[22:06:57] [main/INFO]: Dispatching loading event for config visualworkbench-common.toml
+[22:06:57] [main/INFO]: [STDOUT]: Initialize WeaponMaster
+[22:06:57] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[22:06:57] [main/WARN]: Missing data pack axiom
+[22:06:58] [main/INFO]: Loaded 1296 recipes
+[22:06:59] [main/INFO]: Loaded 1401 advancements
+[22:06:59] [main/INFO]: Reloading config...
+[22:06:59] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 92 translation keys
+[22:06:59] [main/INFO]: Applied 3 biome modifications to 3 of 158 new biomes in 4.583 ms
+[22:06:59] [Server thread/INFO]: Dispatching loading event for config easyanvils-server.toml
+[22:06:59] [Server thread/INFO]: Dispatching loading event for config easymagic-server.toml
+[22:06:59] [Server thread/INFO]: Dispatching loading event for config leavesbegone-server.toml
+[22:06:59] [Server thread/INFO]: Starting minecraft server version 1.21
+[22:06:59] [Server thread/INFO]: Loading properties
+[22:06:59] [Server thread/INFO]: Default game type: SURVIVAL
+[22:06:59] [Server thread/INFO]: Generating keypair
+[22:06:59] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:06:59] [Server thread/INFO]: Using epoll channel type
+[22:06:59] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:06:59] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:06:59] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:06:59] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:06:59] [Server thread/INFO]: Preparing level "world"
+[22:06:59] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:06:59] [Server thread/INFO]: [STDOUT]: [ScalableLux] Lighting scaling is enabled, using 5 threads
+[22:07:01] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[22:07:01] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[22:07:01] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[22:07:01] [Server thread/INFO]: Time elapsed: 1446 ms
+[22:07:01] [Server thread/INFO]: Done (1.662s)! For help, type "help"
+[22:07:01] [Server thread/WARN]: Dedicated server took 11.797 seconds to load
+[22:07:01] [Server thread/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
+[22:07:01] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricClientHooks@66c97ee9 for service interface journeymap.api.services.ClientPlatformService
+[22:07:01] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricHooks@20a64c75 for service interface journeymap.api.services.CommonPlatformService
+[22:09:14] [ForkJoinPool.commonPool-worker-2/WARN]: failed to fetch skin
+java.lang.IllegalStateException: not found
+	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:77) ~[skinrestorer-2.1.0+1.21-fabric.jar:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getProfile(MojangSkinProvider.java:126) ~[skinrestorer-2.1.0+1.21-fabric.jar:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.lambda$static$0(MojangSkinProvider.java:52) ~[skinrestorer-2.1.0+1.21-fabric.jar:?]
+	at net.minecraft.class_3312.method_14509(class_3312.java:95) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3312.method_14515(class_3312.java:150) ~[server-intermediary.jar:?]
+	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.fetchSkin(MojangSkinProvider.java:97) ~[skinrestorer-2.1.0+1.21-fabric.jar:?]
+	at net.minecraft.class_3248.mdc97343$skinrestorer$lambda$skinrestorer$fetchSkin$1$1(class_3248.java:2078) ~[server-intermediary.jar:?]
+	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.class_3248.skinrestorer$fetchSkin(class_3248.java:2077) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.mdc97343$skinrestorer$lambda$waitForSkin$0$2(class_3248.java:2062) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+[22:09:14] [Server thread/INFO]: cyberphantom52[/127.0.0.1:40378] logged in with entity id 86 at (-2108.4688006106994, 173.0, 1080.1348463674808)
+[22:09:14] [Server thread/INFO]: cyberphantom52 joined the game
+[22:09:34] [Server thread/INFO]: [cyberphantom52: Set own game mode to Survival Mode]
+[22:09:40] [Server thread/INFO]: [cyberphantom52: Set the time to 1000]
+[22:10:42] [Server thread/INFO]: zaidkhan[/192.168.195.237:57801] logged in with entity id 377 at (-2061.292189515357, 160.0, 1108.58118974923)
+[22:10:42] [Server thread/INFO]: zaidkhan joined the game
+[22:13:23] [Server thread/INFO]: zaidkhan has made the advancement [Isn't It Iron Pick]
+[22:14:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-2061, y=159, z=1107} class_2338{x=-2111, y=157, z=1091}
+[22:15:05] [Server thread/INFO]: zaidkhan lost connection: Timed out
+[22:15:05] [Server thread/INFO]: zaidkhan left the game
+[22:15:54] [Server thread/INFO]: cyberphantom52 has made the advancement [Isn't It Iron Pick]
+[22:15:57] [Server thread/INFO]: cyberphantom52 has made the advancement [Acquire Hardware]
+[22:16:07] [Server thread/INFO]: cyberphantom52 has made the advancement [Stone Age]
+[22:20:31] [Server thread/INFO]: cyberphantom52 has made the advancement [Sweet Dreams]
+[22:21:16] [Server thread/INFO]: cyberphantom52 has made the advancement [Suit Up]
+[22:22:18] [Server thread/INFO]: com.mojang.authlib.GameProfile@35c94778[id=18ed1ed0-cb01-39b7-9e2e-dacf2648ce40,name=zaidkhan,properties={}] lost connection: Disconnected
+[22:25:43] [Server thread/INFO]: zaidkhan[/192.168.195.237:58591] logged in with entity id 2723 at (-2114.7569606106695, 165.0, 1086.331997751756)
+[22:25:43] [Server thread/INFO]: zaidkhan joined the game
+[22:25:53] [Server thread/INFO]: zaidkhan has made the advancement [Stone Age]
+[22:26:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-2119, y=161, z=1070} class_2338{x=-2107, y=161, z=1085}
+[22:26:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-2119, y=161, z=1070} class_2338{x=-2107, y=160, z=1084}
+[22:26:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-2119, y=161, z=1070} class_2338{x=-2106, y=160, z=1085}
+[22:26:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-2119, y=161, z=1070} class_2338{x=-2107, y=161, z=1084}
+[22:26:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-2119, y=161, z=1070} class_2338{x=-2107, y=161, z=1085}
+[22:26:49] [Server thread/INFO]: zaidkhan lost connection: Disconnected
+[22:26:49] [Server thread/INFO]: zaidkhan left the game
+[22:28:04] [Server thread/INFO]: cyberphantom52 has made the advancement [Monster Hunter]
+[22:32:24] [Server thread/INFO]: Villager class_1646['Villager'/22, l='ServerLevel[world]', x=-2063.55, y=165.00, z=1088.70] died, message: 'Villager suffocated in a wall'
+[22:33:03] [Server thread/INFO]: Villager class_1646['Butcher'/6, l='ServerLevel[world]', x=-2128.46, y=161.00, z=1084.00] died, message: 'Butcher was slain by Zombie'
+[22:35:45] [Server thread/INFO]: cyberphantom52 has made the advancement [Take Aim]
+[22:47:06] [Server thread/INFO]: [cyberphantom52: Summoned new Villager]
+[22:47:07] [Server thread/INFO]: [cyberphantom52: Summoned new Villager]
+[22:47:09] [Server thread/INFO]: [cyberphantom52: Summoned new Villager]
+[22:47:10] [Server thread/INFO]: [cyberphantom52: Summoned new Villager]
+[22:47:11] [Server thread/INFO]: [cyberphantom52: Summoned new Villager]
+[22:47:11] [Server thread/INFO]: [cyberphantom52: Summoned new Villager]
+[22:47:12] [Server thread/INFO]: [cyberphantom52: Summoned new Villager]
+[22:47:13] [Server thread/INFO]: [cyberphantom52: Summoned new Villager]
+[22:47:13] [Server thread/INFO]: [cyberphantom52: Summoned new Villager]
+[22:47:14] [Server thread/INFO]: [cyberphantom52: Summoned new Villager]
+[22:47:14] [Server thread/INFO]: [cyberphantom52: Summoned new Villager]
+[22:47:15] [Server thread/INFO]: [cyberphantom52: Summoned new Villager]
+[22:47:16] [Server thread/INFO]: [cyberphantom52: Summoned new Villager]
+[22:47:17] [Server thread/INFO]: [cyberphantom52: Summoned new Villager]
+[22:47:17] [Server thread/INFO]: [cyberphantom52: Summoned new Villager]
+[22:47:18] [Server thread/INFO]: [cyberphantom52: Summoned new Villager]
+[22:47:18] [Server thread/INFO]: [cyberphantom52: Summoned new Villager]
+[22:47:20] [Server thread/INFO]: [cyberphantom52: Summoned new Villager]
+[22:47:21] [Server thread/INFO]: [cyberphantom52: Summoned new Villager]
+[22:47:22] [Server thread/INFO]: [cyberphantom52: Summoned new Villager]
+[22:54:21] [Server thread/INFO]: [cyberphantom52: Set own game mode to Spectator Mode]
+[22:58:51] [Server thread/INFO]: [cyberphantom52: Set the time to 1000]
+[23:05:26] [Server thread/INFO]: [cyberphantom52: Set the weather to clear]
+[23:07:08] [Server thread/WARN]: cyberphantom52 moved too quickly! 4.166039421764253,0.0,-9.229975888740682
+[23:11:26] [Server thread/INFO]: [cyberphantom52: Set the time to 1000]
+[23:11:39] [Server thread/INFO]: [cyberphantom52: Set own game mode to Survival Mode]
+[23:14:11] [Server thread/WARN]: cyberphantom52 moved wrongly!
+[23:15:01] [Server thread/INFO]: [cyberphantom52: Set own game mode to Spectator Mode]
+[23:15:23] [Server thread/INFO]: cyberphantom52 lost connection: Disconnected
+[23:15:23] [Server thread/INFO]: cyberphantom52 left the game
+[23:15:33] [Server thread/INFO]: Stopping the server
+[23:15:33] [Server thread/INFO]: Stopping server
+[23:15:33] [Server thread/INFO]: Saving players
+[23:15:33] [Server thread/INFO]: Saving worlds
+[23:15:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:15:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[23:15:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[23:15:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:15:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:15:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:15:33] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[23:15:33] [Server thread/INFO]: [EasyAuth]: Shutting down EasyAuth.
+[23:15:33] [Server thread/INFO]: [EasyAuth]: Database connection closed successfully
+[23:15:33] [Server thread/INFO]: Dispatching unloading event for config easyanvils-server.toml
+[23:15:33] [Server thread/INFO]: Dispatching unloading event for config easymagic-server.toml
+[23:15:33] [Server thread/INFO]: Dispatching unloading event for config leavesbegone-server.toml
