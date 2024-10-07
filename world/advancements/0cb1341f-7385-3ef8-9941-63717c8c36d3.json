@@ -5,39 +5,28 @@
     },
     "done": true
   },
-  "betterdungeons:root": {
-    "criteria": {
-      "always": "2024-02-25 18:56:31 +0530"
-    },
-    "done": true
-  },
-  "betterdeserttemples:root": {
-    "criteria": {
-      "always": "2024-02-25 18:56:31 +0530"
-    },
-    "done": true
-  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:cherry_grove": "2024-03-16 14:46:10 +0530",
-      "minecraft:sunflower_plains": "2024-03-16 14:45:01 +0530",
-      "minecraft:birch_forest": "2024-03-04 21:45:48 +0530",
+      "minecraft:flower_forest": "2024-03-16 14:44:37 +0530",
       "minecraft:savanna_plateau": "2024-02-25 18:56:55 +0530",
       "minecraft:beach": "2024-03-04 21:32:54 +0530",
+      "minecraft:stony_peaks": "2024-10-05 17:10:33 +0530",
+      "minecraft:forest": "2024-02-25 18:56:32 +0530",
       "minecraft:mangrove_swamp": "2024-02-26 19:33:24 +0530",
       "minecraft:sparse_jungle": "2024-02-25 21:19:05 +0530",
       "minecraft:river": "2024-02-25 21:19:03 +0530",
       "minecraft:lukewarm_ocean": "2024-02-26 19:42:08 +0530",
       "minecraft:stony_shore": "2024-03-04 21:32:53 +0530",
       "minecraft:dripstone_caves": "2024-03-16 14:46:56 +0530",
-      "minecraft:forest": "2024-02-25 18:56:32 +0530",
+      "minecraft:old_growth_birch_forest": "2024-03-04 21:42:30 +0530",
       "minecraft:jungle": "2024-02-25 21:18:54 +0530",
       "minecraft:ocean": "2024-03-04 22:16:13 +0530",
-      "minecraft:windswept_savanna": "2024-02-26 19:30:43 +0530",
-      "minecraft:flower_forest": "2024-03-16 14:44:37 +0530",
-      "minecraft:old_growth_birch_forest": "2024-03-04 21:42:30 +0530",
+      "minecraft:cherry_grove": "2024-03-16 14:46:10 +0530",
+      "minecraft:sunflower_plains": "2024-03-16 14:45:01 +0530",
       "minecraft:meadow": "2024-03-16 14:44:21 +0530",
+      "minecraft:birch_forest": "2024-03-04 21:45:48 +0530",
       "minecraft:savanna": "2024-02-25 18:59:27 +0530",
+      "minecraft:windswept_savanna": "2024-02-26 19:30:43 +0530",
       "minecraft:plains": "2024-02-25 21:19:48 +0530"
     },
     "done": false
@@ -207,21 +196,21 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2024-02-26 18:33:43 +0530",
+      "mutton": "2024-02-25 19:12:08 +0530",
+      "pufferfish": "2024-03-02 21:18:44 +0530",
       "chicken": "2024-02-25 19:02:58 +0530",
+      "bread": "2024-02-28 20:00:09 +0530",
+      "rotten_flesh": "2024-03-25 14:05:13 +0530",
       "cooked_mutton": "2024-02-25 21:29:44 +0530",
+      "salmon": "2024-02-28 19:12:47 +0530",
       "cooked_beef": "2024-02-26 20:23:56 +0530",
       "beef": "2024-02-27 19:53:15 +0530",
       "baked_potato": "2024-03-16 15:22:32 +0530",
+      "melon_slice": "2024-02-27 19:31:50 +0530",
       "porkchop": "2024-02-25 19:03:09 +0530",
       "apple": "2024-02-27 20:29:54 +0530",
-      "cooked_cod": "2024-03-02 14:00:55 +0530",
-      "mutton": "2024-02-25 19:12:08 +0530",
-      "pufferfish": "2024-03-02 21:18:44 +0530",
-      "bread": "2024-02-28 20:00:09 +0530",
-      "rotten_flesh": "2024-03-25 14:05:13 +0530",
-      "salmon": "2024-02-28 19:12:47 +0530",
-      "melon_slice": "2024-02-27 19:31:50 +0530",
       "cooked_chicken": "2024-02-25 21:27:10 +0530",
+      "cooked_cod": "2024-03-02 14:00:55 +0530",
       "cooked_salmon": "2024-02-26 20:45:18 +0530",
       "carrot": "2024-03-04 21:46:42 +0530"
     },
@@ -257,18 +246,18 @@
       "minecraft:blaze": "2024-03-16 16:49:34 +0530",
       "minecraft:skeleton": "2024-02-25 19:04:29 +0530",
       "minecraft:zoglin": "2024-03-24 13:35:09 +0530",
-      "minecraft:ghast": "2024-03-16 17:05:24 +0530",
-      "minecraft:hoglin": "2024-02-29 19:34:26 +0530",
-      "minecraft:spider": "2024-02-25 19:06:35 +0530",
-      "minecraft:piglin_brute": "2024-02-29 21:35:59 +0530",
-      "minecraft:creeper": "2024-02-26 19:51:09 +0530",
       "minecraft:zombified_piglin": "2024-02-29 22:06:57 +0530",
       "minecraft:witch": "2024-02-29 20:30:19 +0530",
       "minecraft:wither_skeleton": "2024-03-16 17:05:14 +0530",
+      "minecraft:ghast": "2024-03-16 17:05:24 +0530",
+      "minecraft:hoglin": "2024-02-29 19:34:26 +0530",
       "minecraft:cave_spider": "2024-02-26 19:52:16 +0530",
       "minecraft:piglin": "2024-02-27 20:34:38 +0530",
       "minecraft:enderman": "2024-02-29 19:45:59 +0530",
+      "minecraft:spider": "2024-02-25 19:06:35 +0530",
+      "minecraft:piglin_brute": "2024-02-29 21:35:59 +0530",
       "minecraft:zombie": "2024-02-25 19:06:46 +0530",
+      "minecraft:creeper": "2024-02-26 19:51:09 +0530",
       "minecraft:drowned": "2024-02-26 23:17:22 +0530",
       "minecraft:zombie_villager": "2024-02-29 19:22:51 +0530"
     },
@@ -1107,10 +1096,10 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
-      "minecraft:turtle": "2024-03-23 11:56:15 +0530",
-      "minecraft:sheep": "2024-02-27 19:52:33 +0530",
       "minecraft:cow": "2024-02-26 18:24:22 +0530",
       "minecraft:chicken": "2024-02-26 23:57:18 +0530",
+      "minecraft:turtle": "2024-03-23 11:56:15 +0530",
+      "minecraft:sheep": "2024-02-27 19:52:33 +0530",
       "minecraft:bee": "2024-02-28 01:06:12 +0530"
     },
     "done": false
@@ -1624,19 +1613,6 @@
       "has_boat": "2024-02-26 20:17:20 +0530"
     },
     "done": true
-  },
-  "betterdungeons:zombie_dungeon": {
-    "criteria": {
-      "in_better_zombie_dungeon": "2024-02-26 20:18:00 +0530"
-    },
-    "done": true
-  },
-  "betterdungeons:all_dungeons": {
-    "criteria": {
-      "in_better_zombie_dungeon": "2024-02-26 20:18:00 +0530",
-      "in_better_spider_dungeon": "2024-03-16 15:28:30 +0530"
-    },
-    "done": false
   },
   "minecraft:recipes/building_blocks/polished_andesite_stairs": {
     "criteria": {
@@ -2163,12 +2139,6 @@
   "minecraft:recipes/redstone/daylight_detector": {
     "criteria": {
       "has_quartz": "2024-02-27 00:14:40 +0530"
-    },
-    "done": true
-  },
-  "minecraft:nether/find_fortress": {
-    "criteria": {
-      "in_better_fortress": "2024-02-27 00:29:48 +0530"
     },
     "done": true
   },
@@ -3258,12 +3228,6 @@
     },
     "done": true
   },
-  "betterdungeons:spider_dungeon": {
-    "criteria": {
-      "in_better_spider_dungeon": "2024-03-16 15:28:30 +0530"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/redstone_lamp": {
     "criteria": {
       "has_glowstone": "2024-03-16 16:42:33 +0530"
@@ -3540,5 +3504,245 @@
     },
     "done": true
   },
-  "DataVersion": 3465
+  "minecraft:recipes/misc/white_dye_from_lily_of_the_valley": {
+    "criteria": {
+      "has_lily_of_the_valley": "2024-10-05 17:04:13 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/copper_door": {
+    "criteria": {
+      "has_copper_ingot": "2024-10-06 11:34:46 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/copper_trapdoor": {
+    "criteria": {
+      "has_copper_ingot": "2024-10-06 11:34:46 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/quartz": {
+    "criteria": {
+      "has_nether_quartz_ore": "2024-10-06 11:38:32 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/quartz_from_blasting": {
+    "criteria": {
+      "has_nether_quartz_ore": "2024-10-06 11:38:32 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brick": {
+    "criteria": {
+      "has_clay_ball": "2024-10-06 22:49:10 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2024-10-06 22:49:10 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_tuff_bricks_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2024-10-07 01:11:08 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_bricks_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2024-10-07 01:11:08 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_slab": {
+    "criteria": {
+      "has_tuff": "2024-10-07 01:11:08 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_slab_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2024-10-07 01:11:08 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_tuff_wall_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2024-10-07 01:11:08 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_wall": {
+    "criteria": {
+      "has_tuff": "2024-10-07 01:11:08 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_slab_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2024-10-07 01:11:08 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_wall_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2024-10-07 01:11:08 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_stairs": {
+    "criteria": {
+      "has_tuff": "2024-10-07 01:11:08 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_brick_wall_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2024-10-07 01:11:08 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_tuff_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2024-10-07 01:11:08 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_stairs_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2024-10-07 01:11:08 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_stairs_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2024-10-07 01:11:08 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_stairs_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2024-10-07 01:11:08 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff": {
+    "criteria": {
+      "has_tuff": "2024-10-07 01:11:08 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_slab_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2024-10-07 01:11:08 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2024-10-07 01:11:08 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-10-07 01:23:41 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-10-07 01:23:41 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-10-07 01:23:41 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-10-07 01:23:41 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-10-07 01:23:41 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-10-07 01:23:41 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-10-07 01:23:41 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-10-07 01:23:41 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/magenta_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-10-07 01:23:41 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-10-07 01:23:41 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-10-07 01:23:41 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-10-07 01:23:41 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-10-07 01:23:41 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-10-07 01:23:41 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-10-07 01:23:41 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-10-07 01:23:41 +0530"
+    },
+    "done": true
+  },
+  "DataVersion": 3953
 }
