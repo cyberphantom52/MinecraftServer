@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "overrides": {
+    "betterdeserttemples": {
+      "-depends": {
+        "minecraft": "IGNORED",
+        "yungsapi": "IGNORED",
+        "fabric": "IGNORED"
+      }
+    },
+    "betterdungeons": {
+      "-depends": {
+        "minecraft": "IGNORED",
+        "yungsapi": "IGNORED",
+        "fabric": "IGNORED"
+      }
+    },
+    "betterfortresses": {
+      "-depends": {
+        "minecraft": "IGNORED",
+        "yungsapi": "IGNORED",
+        "fabric": "IGNORED"
+      }
+    },
+    "betterjungletemples": {
+      "-depends": {
+        "minecraft": "IGNORED",
+        "yungsapi": "IGNORED",
+        "fabric": "IGNORED"
+      }
+    },
+    "bettermineshafts": {
+      "-depends": {
+        "minecraft": "IGNORED",
+        "yungsapi": "IGNORED",
+        "fabric": "IGNORED"
+      }
+    },
+    "betterstrongholds": {
+      "-depends": {
+        "minecraft": "IGNORED",
+        "yungsapi": "IGNORED",
+        "fabric": "IGNORED"
+      }
+    },
+    "betterwitchhuts": {
+      "-depends": {
+        "minecraft": "IGNORED",
+        "yungsapi": "IGNORED",
+        "fabric": "IGNORED"
+      }
+    },
+    "betteroceanmonuments": {
+      "-depends": {
+        "minecraft": "IGNORED",
+        "yungsapi": "IGNORED",
+        "fabric": "IGNORED"
+      }
+    },
+    "yungsbridges": {
+      "-depends": {
+        "minecraft": "IGNORED",
+        "yungsapi": "IGNORED",
+        "fabric": "IGNORED"
+      }
+    },
+    "yungsextras": {
+      "-depends": {
+        "minecraft": "IGNORED",
+        "yungsapi": "IGNORED",
+        "fabric": "IGNORED"
+      }
+    }
+  }
+}

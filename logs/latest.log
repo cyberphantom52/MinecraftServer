@@ -1,6 +1,7 @@
-[22:06:50] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.5
-[22:06:50] [ForkJoinPool-1-worker-9/WARN]: Mod tectonic uses the version 2.4.1a which isn't compatible with Loader's extended semantic version format (Could not parse version number component '1a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[22:06:50] [main/WARN]: Warnings were found!
+[19:44:25] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.5
+[19:44:25] [ForkJoinPool-1-worker-4/WARN]: Mod tectonic uses the version 2.4.1a which isn't compatible with Loader's extended semantic version format (Could not parse version number component '1a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[19:44:25] [main/INFO]: Dependencies overridden for yungsextras, yungsbridges, betterdungeons, betteroceanmonuments, betterstrongholds, betterfortresses, betterwitchhuts, bettermineshafts, betterdeserttemples, betterjungletemples
+[19:44:25] [main/WARN]: Warnings were found!
  - Mod 'Dynamic Lights' (dynamiclights) 1.8.3+mod recommends any version of modmenu, which is missing!
 	 - You should install any version of modmenu for the optimal experience.
  - Mod 'Dynamic Lights' (dynamiclights) 1.8.3+mod recommends any version of modmenu-badges-lib, which is missing!
@@ -9,8 +10,26 @@
 	 - You should install any version of midnightlib for the optimal experience.
  - Mod 'Forge Config API Port' (forgeconfigapiport) 21.0.8 recommends any version of modmenu, which is missing!
 	 - You should install any version of modmenu for the optimal experience.
-[22:06:50] [main/INFO]: Loading 92 mods:
+[19:44:25] [main/INFO]: Loading 111 mods:
 	- alternate-current 1.9.0
+	- architectury 13.0.8
+	- betterdeserttemples 1.21.1-Fabric-4.1.1
+	   \-- org_reflections_reflections 0.10.2
+	- betterdungeons 1.21.1-Fabric-5.1.1
+	   \-- org_reflections_reflections 0.10.2
+	- betterfortresses 1.21.1-Fabric-3.1.1
+	   \-- org_reflections_reflections 0.10.2
+	- betterjungletemples 1.21.1-Fabric-3.1.0
+	   \-- org_reflections_reflections 0.10.2
+	- bettermineshafts 1.21.1-Fabric-5.1.0
+	   \-- org_reflections_reflections 0.10.2
+	- betteroceanmonuments 1.21.1-Fabric-4.1.0
+	   \-- org_reflections_reflections 0.10.2
+	- betterstrongholds 1.21.1-Fabric-5.1.1
+	   \-- org_reflections_reflections 0.10.2
+	- betterwitchhuts 1.21.1-Fabric-4.1.0
+	   \-- org_reflections_reflections 0.10.2
+	- capecommand 0.1.3-1.21.1
 	- cloth-config 15.0.140
 	   \-- cloth-basic-math 0.6.1
 	- clumps 18.0.0.2
@@ -93,6 +112,9 @@
 	- forgeconfigapiport 21.0.8
 	   |-- com_electronwill_night-config_core 3.8.0
 	   \-- com_electronwill_night-config_toml 3.8.0
+	- glowing-torchflower 1.1.0
+	- jamlib 1.0.11+1.21
+	   \-- blue_endless_jankson 1.2.3
 	- java 21
 	- journeymap 1.21-6.0.0-beta.27
 	   |-- ar_com_hjg_pngj 2.1.0
@@ -105,6 +127,7 @@
 	- noisium 2.3.0+mc1.21-1.21.1
 	- nyfsspiders 2.3.1
 	- puzzleslib 21.0.28
+	- rightclickharvest 4.3.1+1.21
 	- scalablelux 0.1.0+fabric.26c6e72
 	- sit-oth3r 1.2.0.7+1.21-1.21.1
 	- skinrestorer 2.1.0+1.21-fabric
@@ -114,76 +137,110 @@
 	- visualworkbench 21.0.5
 	- watut 1.21.0-1.1.3
 	- weaponmaster_ydm 4.2.3
-[22:06:50] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/phantom/Documents/MinecraftServer/libraries/net/fabricmc/sponge-mixin/0.15.3+mixin.0.8.7/sponge-mixin-0.15.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[22:06:50] [main/INFO]: Compatibility level set to JAVA_16
-[22:06:50] [main/INFO]: Compatibility level set to JAVA_18
-[22:06:50] [main/INFO]: Compatibility level set to JAVA_21
-[22:06:50] [main/WARN]: Reference map 'coroutil.refmap.json' for coroutil_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[22:06:50] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[22:06:50] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
-[22:06:50] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[22:06:50] [main/WARN]: Reference map 'leavesbegone.fabric.refmap.json' for leavesbegone.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[22:06:50] [main/INFO]: Loaded configuration file for ModernFix 5.19.1+mc1.21: 54 options available, 0 override(s) found
-[22:06:50] [main/INFO]: Applying Nashorn fix
-[22:06:50] [main/WARN]: Reference map 'visualworkbench.fabric.refmap.json' for visualworkbench.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[22:06:51] [main/INFO]: Loading Faster Random.
-[22:06:51] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[22:06:54] [main/INFO]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[22:06:54] [main/INFO]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[22:06:54] [main/WARN]: Static binding violation: PRIVATE @Overwrite method method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
-[22:06:56] [main/INFO]: Vanilla bootstrap took 3346 milliseconds
-[22:06:56] [main/INFO]: fabric loader environment detected
-[22:06:56] [main/INFO]: [Dynamic Lights] Loaded Dynamic Lights by Tschipcraft successfully!
-[22:06:56] [main/INFO]: Constructing common components for easyanvils:main
-[22:06:56] [main/INFO]: Dispatching loading event for config easyanvils-common.toml
-[22:06:56] [main/INFO]: [EasyAuth]: EasyAuth mod by NikitaCartes
-[22:06:56] [main/WARN]: [EasyAuth]: Disable enforce-secure-profile to allow offline players to join the server
-[22:06:56] [main/WARN]: [EasyAuth]: For more info, see https://github.com/NikitaCartes/EasyAuth/issues/68
-[22:06:57] [main/INFO]: Constructing common components for easymagic:main
-[22:06:57] [main/INFO]: Dispatching loading event for config easymagic-common.toml
-[22:06:57] [main/INFO]: Initializing ServerSide Packet Registries
-[22:06:57] [main/INFO]: Constructing common components for leavesbegone:main
-[22:06:57] [main/INFO]: Giving mobs a fresh coat of paint...
-[22:06:57] [main/INFO]: Loading Noisium.
-[22:06:57] [main/INFO]: Hello Fabric world!
-[22:06:57] [main/INFO]: Constructing common components for puzzleslib:main
-[22:06:57] [main/INFO]: Loading Steve's Realistic Sleep.
-[22:06:57] [main/INFO]: Constructing common components for visualworkbench:main
-[22:06:57] [main/INFO]: Dispatching loading event for config visualworkbench-common.toml
-[22:06:57] [main/INFO]: [STDOUT]: Initialize WeaponMaster
-[22:06:57] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[22:06:57] [main/WARN]: Missing data pack axiom
-[22:06:58] [main/INFO]: Loaded 1296 recipes
-[22:06:59] [main/INFO]: Loaded 1401 advancements
-[22:06:59] [main/INFO]: Reloading config...
-[22:06:59] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 92 translation keys
-[22:06:59] [main/INFO]: Applied 3 biome modifications to 3 of 158 new biomes in 4.583 ms
-[22:06:59] [Server thread/INFO]: Dispatching loading event for config easyanvils-server.toml
-[22:06:59] [Server thread/INFO]: Dispatching loading event for config easymagic-server.toml
-[22:06:59] [Server thread/INFO]: Dispatching loading event for config leavesbegone-server.toml
-[22:06:59] [Server thread/INFO]: Starting minecraft server version 1.21
-[22:06:59] [Server thread/INFO]: Loading properties
-[22:06:59] [Server thread/INFO]: Default game type: SURVIVAL
-[22:06:59] [Server thread/INFO]: Generating keypair
-[22:06:59] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:06:59] [Server thread/INFO]: Using epoll channel type
-[22:06:59] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[22:06:59] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[22:06:59] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[22:06:59] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[22:06:59] [Server thread/INFO]: Preparing level "world"
-[22:06:59] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[22:06:59] [Server thread/INFO]: [STDOUT]: [ScalableLux] Lighting scaling is enabled, using 5 threads
-[22:07:01] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[22:07:01] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[22:07:01] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[22:07:01] [Server thread/INFO]: Time elapsed: 1446 ms
-[22:07:01] [Server thread/INFO]: Done (1.662s)! For help, type "help"
-[22:07:01] [Server thread/WARN]: Dedicated server took 11.797 seconds to load
-[22:07:01] [Server thread/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
-[22:07:01] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricClientHooks@66c97ee9 for service interface journeymap.api.services.ClientPlatformService
-[22:07:01] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricHooks@20a64c75 for service interface journeymap.api.services.CommonPlatformService
-[22:09:14] [ForkJoinPool.commonPool-worker-2/WARN]: failed to fetch skin
+	- yungsapi 1.21-Fabric-5.0.0
+	   |-- org_javassist_javassist 3.29.2-GA
+	   \-- org_reflections_reflections 0.10.2
+	- yungsbridges 1.21.1-Fabric-5.1.0
+	   \-- org_reflections_reflections 0.10.2
+	- yungsextras 1.21.1-Fabric-5.1.0
+	   \-- org_reflections_reflections 0.10.2
+[19:44:25] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/phantom/Documents/MinecraftServer/libraries/net/fabricmc/sponge-mixin/0.15.3+mixin.0.8.7/sponge-mixin-0.15.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[19:44:25] [main/INFO]: Compatibility level set to JAVA_16
+[19:44:25] [main/INFO]: Compatibility level set to JAVA_17
+[19:44:25] [main/INFO]: Compatibility level set to JAVA_18
+[19:44:25] [main/INFO]: Compatibility level set to JAVA_21
+[19:44:25] [main/WARN]: Reference map 'coroutil.refmap.json' for coroutil_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:44:25] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:44:25] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:44:25] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:44:25] [main/WARN]: Reference map 'leavesbegone.fabric.refmap.json' for leavesbegone.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:44:25] [main/INFO]: Loaded configuration file for ModernFix 5.19.1+mc1.21: 54 options available, 0 override(s) found
+[19:44:25] [main/INFO]: Applying Nashorn fix
+[19:44:25] [main/WARN]: Reference map 'visualworkbench.fabric.refmap.json' for visualworkbench.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:44:26] [main/INFO]: Loading Faster Random.
+[19:44:26] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[19:44:29] [main/INFO]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[19:44:29] [main/INFO]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[19:44:29] [main/WARN]: Static binding violation: PRIVATE @Overwrite method method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[19:44:32] [main/INFO]: Vanilla bootstrap took 3852 milliseconds
+[19:44:32] [main/INFO]: Reflections took 32 ms to scan 1 urls, producing 1 keys and 2 values
+[19:44:32] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[19:44:32] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
+[19:44:32] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
+[19:44:32] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[19:44:32] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[19:44:32] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
+[19:44:32] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
+[19:44:32] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[19:44:32] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[19:44:32] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[19:44:32] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
+[19:44:32] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[19:44:32] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[19:44:32] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[19:44:32] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[19:44:32] [main/INFO]: Initialising cape command
+[19:44:32] [main/INFO]: Trying to load config, if it exists
+[19:44:32] [main/INFO]: Registering cape command
+[19:44:32] [main/INFO]: Registering server network handlers
+[19:44:32] [main/INFO]: fabric loader environment detected
+[19:44:32] [main/INFO]: [Dynamic Lights] Loaded Dynamic Lights by Tschipcraft successfully!
+[19:44:32] [main/INFO]: Constructing common components for easyanvils:main
+[19:44:32] [main/INFO]: Dispatching loading event for config easyanvils-common.toml
+[19:44:32] [main/INFO]: [EasyAuth]: EasyAuth mod by NikitaCartes
+[19:44:32] [main/WARN]: [EasyAuth]: Disable enforce-secure-profile to allow offline players to join the server
+[19:44:32] [main/WARN]: [EasyAuth]: For more info, see https://github.com/NikitaCartes/EasyAuth/issues/68
+[19:44:32] [main/INFO]: Constructing common components for easymagic:main
+[19:44:32] [main/INFO]: Dispatching loading event for config easymagic-common.toml
+[19:44:32] [main/INFO]: Initializing JamLib on Fabric
+[19:44:32] [main/INFO]: Initializing ServerSide Packet Registries
+[19:44:32] [main/INFO]: Constructing common components for leavesbegone:main
+[19:44:33] [main/INFO]: Giving mobs a fresh coat of paint...
+[19:44:33] [main/INFO]: Loading Noisium.
+[19:44:33] [main/INFO]: Hello Fabric world!
+[19:44:33] [main/INFO]: Constructing common components for puzzleslib:main
+[19:44:33] [main/INFO]: Updated config file at /home/phantom/Documents/MinecraftServer/config/rightclickharvest.json5
+[19:44:33] [main/INFO]: Initializing Right Click Harvest on FABRIC
+[19:44:33] [main/INFO]: Loading Steve's Realistic Sleep.
+[19:44:33] [main/INFO]: Constructing common components for visualworkbench:main
+[19:44:33] [main/INFO]: Dispatching loading event for config visualworkbench-common.toml
+[19:44:33] [main/INFO]: [STDOUT]: Initialize WeaponMaster
+[19:44:33] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
+[19:44:33] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
+[19:44:33] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[19:44:33] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[19:44:33] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[19:44:33] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[19:44:33] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:44:34] [main/INFO]: Loaded 1296 recipes
+[19:44:34] [main/INFO]: Loaded 1411 advancements
+[19:44:34] [main/INFO]: Reloading config...
+[19:44:35] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 92 translation keys
+[19:44:35] [main/INFO]: Applied 427 biome modifications to 147 of 158 new biomes in 24.36 ms
+[19:44:35] [Server thread/INFO]: Dispatching loading event for config easyanvils-server.toml
+[19:44:35] [Server thread/INFO]: Dispatching loading event for config easymagic-server.toml
+[19:44:35] [Server thread/INFO]: Dispatching loading event for config leavesbegone-server.toml
+[19:44:35] [Server thread/INFO]: Starting minecraft server version 1.21
+[19:44:35] [Server thread/INFO]: Loading properties
+[19:44:35] [Server thread/INFO]: Default game type: SURVIVAL
+[19:44:35] [Server thread/INFO]: Generating keypair
+[19:44:35] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:44:35] [Server thread/INFO]: Using epoll channel type
+[19:44:35] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:44:35] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:44:35] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:44:35] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:44:35] [Server thread/INFO]: Preparing level "world"
+[19:44:35] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:44:35] [Server thread/INFO]: [STDOUT]: [ScalableLux] Lighting scaling is enabled, using 5 threads
+[19:44:35] [Worker-Main-15/INFO]: Preparing spawn area: 0%
+[19:44:36] [Server thread/INFO]: Time elapsed: 403 ms
+[19:44:36] [Server thread/INFO]: Done (0.724s)! For help, type "help"
+[19:44:36] [Server thread/WARN]: Dedicated server took 12.069 seconds to load
+[19:44:36] [Server thread/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
+[19:44:36] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricClientHooks@56aa585f for service interface journeymap.api.services.ClientPlatformService
+[19:44:36] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricHooks@d2bee6a for service interface journeymap.api.services.CommonPlatformService
+[19:45:46] [ForkJoinPool.commonPool-worker-2/WARN]: failed to fetch skin
 java.lang.IllegalStateException: not found
 	at net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:77) ~[skinrestorer-2.1.0+1.21-fabric.jar:?]
 	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getProfile(MojangSkinProvider.java:126) ~[skinrestorer-2.1.0+1.21-fabric.jar:?]
@@ -191,10 +248,10 @@ java.lang.IllegalStateException: not found
 	at net.minecraft.class_3312.method_14509(class_3312.java:95) ~[server-intermediary.jar:?]
 	at net.minecraft.class_3312.method_14515(class_3312.java:150) ~[server-intermediary.jar:?]
 	at net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.fetchSkin(MojangSkinProvider.java:97) ~[skinrestorer-2.1.0+1.21-fabric.jar:?]
-	at net.minecraft.class_3248.mdc97343$skinrestorer$lambda$skinrestorer$fetchSkin$1$1(class_3248.java:2078) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.mddf5f5c$skinrestorer$lambda$skinrestorer$fetchSkin$1$1(class_3248.java:2078) ~[server-intermediary.jar:?]
 	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
 	at net.minecraft.class_3248.skinrestorer$fetchSkin(class_3248.java:2077) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3248.mdc97343$skinrestorer$lambda$waitForSkin$0$2(class_3248.java:2062) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3248.mddf5f5c$skinrestorer$lambda$waitForSkin$0$2(class_3248.java:2062) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
@@ -202,79 +259,23 @@ java.lang.IllegalStateException: not found
 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
-[22:09:14] [Server thread/INFO]: cyberphantom52[/127.0.0.1:40378] logged in with entity id 86 at (-2108.4688006106994, 173.0, 1080.1348463674808)
-[22:09:14] [Server thread/INFO]: cyberphantom52 joined the game
-[22:09:34] [Server thread/INFO]: [cyberphantom52: Set own game mode to Survival Mode]
-[22:09:40] [Server thread/INFO]: [cyberphantom52: Set the time to 1000]
-[22:10:42] [Server thread/INFO]: zaidkhan[/192.168.195.237:57801] logged in with entity id 377 at (-2061.292189515357, 160.0, 1108.58118974923)
-[22:10:42] [Server thread/INFO]: zaidkhan joined the game
-[22:13:23] [Server thread/INFO]: zaidkhan has made the advancement [Isn't It Iron Pick]
-[22:14:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-2061, y=159, z=1107} class_2338{x=-2111, y=157, z=1091}
-[22:15:05] [Server thread/INFO]: zaidkhan lost connection: Timed out
-[22:15:05] [Server thread/INFO]: zaidkhan left the game
-[22:15:54] [Server thread/INFO]: cyberphantom52 has made the advancement [Isn't It Iron Pick]
-[22:15:57] [Server thread/INFO]: cyberphantom52 has made the advancement [Acquire Hardware]
-[22:16:07] [Server thread/INFO]: cyberphantom52 has made the advancement [Stone Age]
-[22:20:31] [Server thread/INFO]: cyberphantom52 has made the advancement [Sweet Dreams]
-[22:21:16] [Server thread/INFO]: cyberphantom52 has made the advancement [Suit Up]
-[22:22:18] [Server thread/INFO]: com.mojang.authlib.GameProfile@35c94778[id=18ed1ed0-cb01-39b7-9e2e-dacf2648ce40,name=zaidkhan,properties={}] lost connection: Disconnected
-[22:25:43] [Server thread/INFO]: zaidkhan[/192.168.195.237:58591] logged in with entity id 2723 at (-2114.7569606106695, 165.0, 1086.331997751756)
-[22:25:43] [Server thread/INFO]: zaidkhan joined the game
-[22:25:53] [Server thread/INFO]: zaidkhan has made the advancement [Stone Age]
-[22:26:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-2119, y=161, z=1070} class_2338{x=-2107, y=161, z=1085}
-[22:26:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-2119, y=161, z=1070} class_2338{x=-2107, y=160, z=1084}
-[22:26:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-2119, y=161, z=1070} class_2338{x=-2106, y=160, z=1085}
-[22:26:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-2119, y=161, z=1070} class_2338{x=-2107, y=161, z=1084}
-[22:26:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-2119, y=161, z=1070} class_2338{x=-2107, y=161, z=1085}
-[22:26:49] [Server thread/INFO]: zaidkhan lost connection: Disconnected
-[22:26:49] [Server thread/INFO]: zaidkhan left the game
-[22:28:04] [Server thread/INFO]: cyberphantom52 has made the advancement [Monster Hunter]
-[22:32:24] [Server thread/INFO]: Villager class_1646['Villager'/22, l='ServerLevel[world]', x=-2063.55, y=165.00, z=1088.70] died, message: 'Villager suffocated in a wall'
-[22:33:03] [Server thread/INFO]: Villager class_1646['Butcher'/6, l='ServerLevel[world]', x=-2128.46, y=161.00, z=1084.00] died, message: 'Butcher was slain by Zombie'
-[22:35:45] [Server thread/INFO]: cyberphantom52 has made the advancement [Take Aim]
-[22:47:06] [Server thread/INFO]: [cyberphantom52: Summoned new Villager]
-[22:47:07] [Server thread/INFO]: [cyberphantom52: Summoned new Villager]
-[22:47:09] [Server thread/INFO]: [cyberphantom52: Summoned new Villager]
-[22:47:10] [Server thread/INFO]: [cyberphantom52: Summoned new Villager]
-[22:47:11] [Server thread/INFO]: [cyberphantom52: Summoned new Villager]
-[22:47:11] [Server thread/INFO]: [cyberphantom52: Summoned new Villager]
-[22:47:12] [Server thread/INFO]: [cyberphantom52: Summoned new Villager]
-[22:47:13] [Server thread/INFO]: [cyberphantom52: Summoned new Villager]
-[22:47:13] [Server thread/INFO]: [cyberphantom52: Summoned new Villager]
-[22:47:14] [Server thread/INFO]: [cyberphantom52: Summoned new Villager]
-[22:47:14] [Server thread/INFO]: [cyberphantom52: Summoned new Villager]
-[22:47:15] [Server thread/INFO]: [cyberphantom52: Summoned new Villager]
-[22:47:16] [Server thread/INFO]: [cyberphantom52: Summoned new Villager]
-[22:47:17] [Server thread/INFO]: [cyberphantom52: Summoned new Villager]
-[22:47:17] [Server thread/INFO]: [cyberphantom52: Summoned new Villager]
-[22:47:18] [Server thread/INFO]: [cyberphantom52: Summoned new Villager]
-[22:47:18] [Server thread/INFO]: [cyberphantom52: Summoned new Villager]
-[22:47:20] [Server thread/INFO]: [cyberphantom52: Summoned new Villager]
-[22:47:21] [Server thread/INFO]: [cyberphantom52: Summoned new Villager]
-[22:47:22] [Server thread/INFO]: [cyberphantom52: Summoned new Villager]
-[22:54:21] [Server thread/INFO]: [cyberphantom52: Set own game mode to Spectator Mode]
-[22:58:51] [Server thread/INFO]: [cyberphantom52: Set the time to 1000]
-[23:05:26] [Server thread/INFO]: [cyberphantom52: Set the weather to clear]
-[23:07:08] [Server thread/WARN]: cyberphantom52 moved too quickly! 4.166039421764253,0.0,-9.229975888740682
-[23:11:26] [Server thread/INFO]: [cyberphantom52: Set the time to 1000]
-[23:11:39] [Server thread/INFO]: [cyberphantom52: Set own game mode to Survival Mode]
-[23:14:11] [Server thread/WARN]: cyberphantom52 moved wrongly!
-[23:15:01] [Server thread/INFO]: [cyberphantom52: Set own game mode to Spectator Mode]
-[23:15:23] [Server thread/INFO]: cyberphantom52 lost connection: Disconnected
-[23:15:23] [Server thread/INFO]: cyberphantom52 left the game
-[23:15:33] [Server thread/INFO]: Stopping the server
-[23:15:33] [Server thread/INFO]: Stopping server
-[23:15:33] [Server thread/INFO]: Saving players
-[23:15:33] [Server thread/INFO]: Saving worlds
-[23:15:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[23:15:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[23:15:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[23:15:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:15:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:15:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:15:33] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[23:15:33] [Server thread/INFO]: [EasyAuth]: Shutting down EasyAuth.
-[23:15:33] [Server thread/INFO]: [EasyAuth]: Database connection closed successfully
-[23:15:33] [Server thread/INFO]: Dispatching unloading event for config easyanvils-server.toml
-[23:15:33] [Server thread/INFO]: Dispatching unloading event for config easymagic-server.toml
-[23:15:33] [Server thread/INFO]: Dispatching unloading event for config leavesbegone-server.toml
+[19:45:46] [Server thread/INFO]: Player cyberphantom52 has cape commands installed client side
+[19:45:47] [Server thread/INFO]: cyberphantom52[/127.0.0.1:34360] logged in with entity id 6 at (-2077.3570073807314, 208.0, 1050.300000011921)
+[19:45:47] [Server thread/INFO]: cyberphantom52 joined the game
+[19:54:35] [Server thread/INFO]: [cyberphantom52: Gave 4 [Oak Fence] to cyberphantom52]
+[19:54:46] [Server thread/INFO]: [cyberphantom52: Gave 54 [Oak Log] to cyberphantom52]
+[19:55:15] [Server thread/INFO]: [cyberphantom52: Gave 10 [Oak Fence] to cyberphantom52]
+[19:58:15] [Server thread/INFO]: [cyberphantom52: Gave 10 [Oak Fence] to cyberphantom52]
+[19:58:54] [Server thread/INFO]: [cyberphantom52: Gave 5 [Oak Log] to cyberphantom52]
+[19:59:46] [Server thread/INFO]: [cyberphantom52: Set own game mode to Spectator Mode]
+[19:59:56] [Server thread/INFO]: [cyberphantom52: Set own game mode to Survival Mode]
+[20:00:18] [Server thread/INFO]: [cyberphantom52: Set own game mode to Creative Mode]
+[20:03:58] [Server thread/INFO]: [cyberphantom52: Set own game mode to Spectator Mode]
+[20:04:40] [Server thread/INFO]: [cyberphantom52: Set own game mode to Creative Mode]
+[20:05:16] [Server thread/INFO]: [cyberphantom52: Set own game mode to Spectator Mode]
+[20:05:47] [Server thread/INFO]: [cyberphantom52: Set own game mode to Creative Mode]
+[20:18:54] [Server thread/INFO]: [cyberphantom52: Set own game mode to Spectator Mode]
+[20:19:02] [Server thread/INFO]: [cyberphantom52: Set own game mode to Creative Mode]
+[20:20:09] [Server thread/INFO]: [cyberphantom52: Set own game mode to Survival Mode]
+[20:20:46] [Server thread/INFO]: cyberphantom52 lost connection: Disconnected
+[20:20:46] [Server thread/INFO]: cyberphantom52 left the game
