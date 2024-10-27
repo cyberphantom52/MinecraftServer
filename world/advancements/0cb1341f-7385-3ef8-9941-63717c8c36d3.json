@@ -4723,5 +4723,17 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_red_mushroom": "2024-10-27 14:33:16 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/summon_wither": {
+    "criteria": {
+      "summoned": "2024-10-27 14:57:32 +0530"
+    },
+    "done": true
+  },
   "DataVersion": 3953
 }

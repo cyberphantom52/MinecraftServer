@@ -360,7 +360,10 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
-      "minecraft:crimson_forest": "2024-10-18 22:24:59 +0530"
+      "minecraft:crimson_forest": "2024-10-18 22:24:59 +0530",
+      "minecraft:nether_wastes": "2024-10-27 14:22:32 +0530",
+      "minecraft:soul_sand_valley": "2024-10-27 14:21:34 +0530",
+      "minecraft:basalt_deltas": "2024-10-27 14:27:17 +0530"
     },
     "done": false
   },
@@ -393,15 +396,20 @@
       "minecraft:pillager": "2024-10-18 22:34:39 +0530",
       "minecraft:blaze": "2024-10-22 00:31:58 +0530",
       "minecraft:skeleton": "2024-10-18 22:27:59 +0530",
-      "minecraft:piglin": "2024-10-22 00:30:39 +0530",
       "minecraft:phantom": "2024-10-22 00:21:17 +0530",
       "minecraft:zombified_piglin": "2024-10-22 00:28:14 +0530",
+      "minecraft:witch": "2024-10-27 14:09:32 +0530",
+      "minecraft:wither_skeleton": "2024-10-21 23:54:06 +0530",
+      "minecraft:hoglin": "2024-10-27 14:37:29 +0530",
+      "minecraft:piglin": "2024-10-22 00:30:39 +0530",
+      "minecraft:vindicator": "2024-10-27 14:07:45 +0530",
       "minecraft:enderman": "2024-10-25 17:53:20 +0530",
       "minecraft:spider": "2024-10-18 22:27:37 +0530",
-      "minecraft:wither_skeleton": "2024-10-21 23:54:06 +0530",
+      "minecraft:piglin_brute": "2024-10-27 14:37:33 +0530",
       "minecraft:zombie": "2024-10-18 22:27:19 +0530",
       "minecraft:creeper": "2024-10-21 16:52:07 +0530",
-      "minecraft:zombie_villager": "2024-10-22 21:46:58 +0530"
+      "minecraft:zombie_villager": "2024-10-22 21:46:58 +0530",
+      "minecraft:evoker": "2024-10-27 14:10:29 +0530"
     },
     "done": false
   },
@@ -1134,16 +1142,21 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:badlands": "2024-10-22 01:16:31 +0530",
-      "minecraft:eroded_badlands": "2024-10-22 01:16:45 +0530",
-      "minecraft:desert": "2024-10-22 01:16:50 +0530",
+      "minecraft:snowy_slopes": "2024-10-27 14:20:04 +0530",
       "minecraft:dark_forest": "2024-10-25 17:33:41 +0530",
-      "minecraft:deep_dark": "2024-10-21 17:45:08 +0530",
+      "minecraft:stony_peaks": "2024-10-27 14:20:41 +0530",
       "minecraft:sparse_jungle": "2024-10-25 17:33:10 +0530",
-      "minecraft:jungle": "2024-10-19 21:04:01 +0530",
       "minecraft:river": "2024-10-25 17:36:12 +0530",
+      "minecraft:lukewarm_ocean": "2024-10-27 14:02:07 +0530",
       "minecraft:lush_caves": "2024-10-25 17:38:56 +0530",
       "minecraft:dripstone_caves": "2024-10-21 17:22:51 +0530",
-      "minecraft:savanna": "2024-10-22 01:17:30 +0530"
+      "minecraft:eroded_badlands": "2024-10-22 01:16:45 +0530",
+      "minecraft:desert": "2024-10-22 01:16:50 +0530",
+      "minecraft:deep_dark": "2024-10-21 17:45:08 +0530",
+      "minecraft:jungle": "2024-10-19 21:04:01 +0530",
+      "minecraft:savanna": "2024-10-22 01:17:30 +0530",
+      "minecraft:plains": "2024-10-27 14:19:46 +0530",
+      "minecraft:warm_ocean": "2024-10-27 14:01:52 +0530"
     },
     "done": false
   },
@@ -2354,15 +2367,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/popped_chorus_fruit": {
-    "criteria": {
-      "has_chorus_fruit": "2024-10-25 18:25:26 +0530"
-    },
-    "done": true
-  },
   "nova_structures:end/find_end_lighthouse": {
     "criteria": {
       "end_lighthouse": "2024-10-25 18:24:22 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/popped_chorus_fruit": {
+    "criteria": {
+      "has_chorus_fruit": "2024-10-25 18:25:26 +0530"
     },
     "done": true
   },
@@ -2420,12 +2433,6 @@
     },
     "done": true
   },
-  "minecraft:end/dragon_breath": {
-    "criteria": {
-      "dragon_breath": "2024-10-25 18:29:34 +0530"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/golden_chestplate": {
     "criteria": {
       "has_gold_ingot": "2024-10-25 18:28:11 +0530"
@@ -2447,6 +2454,90 @@
   "minecraft:recipes/combat/golden_leggings": {
     "criteria": {
       "has_gold_ingot": "2024-10-25 18:28:11 +0530"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_breath": {
+    "criteria": {
+      "dragon_breath": "2024-10-25 18:29:34 +0530"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2024-10-27 13:46:25 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2024-10-27 14:09:34 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2024-10-27 14:09:34 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2024-10-27 14:09:34 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2024-10-27 14:09:34 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2024-10-27 14:09:34 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_redstone": "2024-10-27 14:09:34 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2024-10-27 14:09:34 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2024-10-27 14:09:34 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2024-10-27 14:14:15 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2024-10-27 14:17:54 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2024-10-27 14:35:05 +0530"
+    },
+    "done": true
+  },
+  "betterdeserttemples:temple_entry": {
+    "criteria": {
+      "in_better_desert_temple": "2024-10-27 14:44:17 +0530"
     },
     "done": true
   },

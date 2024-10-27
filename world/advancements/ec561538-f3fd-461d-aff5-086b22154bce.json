@@ -19,7 +19,8 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:desert": "2024-10-26 14:41:35 +0530"
+      "minecraft:desert": "2024-10-26 14:41:35 +0530",
+      "minecraft:warm_ocean": "2024-10-27 14:11:02 +0530"
     },
     "done": false
   },
