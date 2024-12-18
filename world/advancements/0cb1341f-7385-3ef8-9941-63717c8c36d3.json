@@ -814,6 +814,7 @@
       "minecraft:spider": "2024-10-07 22:52:29 +0530",
       "minecraft:piglin_brute": "2024-10-26 15:46:54 +0530",
       "minecraft:creeper": "2024-10-12 00:31:37 +0530",
+      "minecraft:wither": "2024-10-27 15:45:11 +0530",
       "minecraft:evoker": "2024-10-25 16:35:40 +0530",
       "minecraft:phantom": "2024-10-18 23:54:12 +0530",
       "minecraft:zombified_piglin": "2024-10-22 00:28:13 +0530",
@@ -4732,6 +4733,12 @@
   "minecraft:nether/summon_wither": {
     "criteria": {
       "summoned": "2024-10-27 14:57:32 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye_from_wither_rose": {
+    "criteria": {
+      "has_wither_rose": "2024-10-27 15:45:15 +0530"
     },
     "done": true
   },
